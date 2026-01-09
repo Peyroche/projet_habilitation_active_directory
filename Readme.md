@@ -48,6 +48,28 @@ La mise en place d’une infrastructure Active Directory implique des enjeux de 
 
 ---
 
+## Présentation de l’architecture : 
+
+L’architecture mise en place dans le cadre de ce projet repose sur une infrastructure Active Directory centralisée, composée d’un serveur principal et d'un poste client intégré au domaine. Cette architecture permet de simuler un environnement d’entreprise dans lequel l'utilisateur, le groupe et les ressources sont gérés de manière centralisée. 
+
+L’infrastructure se compose des éléments suivants : 
+
+- Un serveur Windows Server jouant le rôle de contrôleur de domaine (DC). Il héberge les services essentiels : Active Directory Domain Services (AD DS), DNS, gestion des utilisateurs, des groupes et des stratégies de sécurité. 
+
+- Un domaine Active Directory structuré selon une logique professionnelle. Le domaine permet l’authentification centralisée des utilisateurs et la gestion des permissions via le modèle AGDLP. 
+
+- Des unités d’organisation (OU) permettant de structurer l'utilisateur, le groupe et le poste client. Cette organisation facilite l’application de stratégies de groupe (GPO) et la gestion des habilitations. 
+
+- Le groupe global (GG) représentant les rôles métiers Ressources Humaines. Il regroupe l'utilisateur selon sa fonction. 
+
+- Le groupe locaux de domaine (DLG) associé au ressource partagé. Il reçoit les permissions NTFS et SMB sur les dossiers du serveur. 
+
+- Un poste client Windows Pro intégré au domaine. Il permet à l'utilisateur de se connecter avec leur compte AD et d’accéder aux ressources selon ses droits. 
+
+- Un dossier partagé sur le serveur, organisé par service Ressources Humaines. Le dossier est protégé par des permissions adaptées au rôle de l'utilisateur. 
+
+---
+
 ## Répartition du Document : 
 
 Ce document est reparti en 3 parties, à savoir :
