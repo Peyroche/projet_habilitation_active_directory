@@ -52,8 +52,6 @@ Voir ci-dessous, une démonstration imagée sur la création d'un utilisateur au
 
 <img src="images/06.png" width="400">
 
-<img src="images/07.png" width="400">
-
 </p>
 
 
