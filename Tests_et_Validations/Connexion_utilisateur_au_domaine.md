@@ -36,13 +36,14 @@ La session s’ouvre sans erreur, le poste affiche le domaine dans les informati
 
 Voir ci-dessous, une démonstration imagée sur la connexion de l’utilisateur au domaine. 
 
-![Ajout](images/01.png)
+<img src="images/01.png" width="300">
 
-![Ajout](images/02.png)
+<img src="images/02.png" width="300">
 
-![Ajout](images/03.png)
+<img src="images/03.png" width="300">
 
-![Ajout](images/04.png)
+<img src="images/04.png" width="300">
+
 
 
 
