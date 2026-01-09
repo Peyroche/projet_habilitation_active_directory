@@ -36,10 +36,13 @@ La session s’ouvre sans erreur, le poste affiche le domaine dans les informati
 
 Voir ci-dessous, une démonstration imagée sur la connexion de l’utilisateur au domaine. 
 
-![Ajout](Tests_et_Validations/img/image_01.png)
-![Ajout](Tests_et_Validations/img/image_02.png)
-![Ajout](Tests_et_Validations/img/image_03.png)
-![Ajout](Tests_et_Validations/img/image_04.png)
+![Ajout](Tests_et_Validations/img/01.png)
+
+![Ajout](Tests_et_Validations/img/02.png)
+
+![Ajout](Tests_et_Validations/img/03.png)
+
+![Ajout](Tests_et_Validations/img/04.png)
 
 
 
