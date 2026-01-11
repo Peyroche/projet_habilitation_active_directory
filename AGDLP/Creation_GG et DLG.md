@@ -9,11 +9,9 @@ Tandis que Le groupe domaine local (DLG) est utilisé pour attribuer les permiss
 
 ---
 
-## Procédure :
+## Procédure création GG :
 
-La procédure utilisée est la suivante  :
-
-Créer un groupe global
+Pour la création d'un GG, la procédure utilisée est la suivante  :
 
 1. Aller dans : OU_Groupes → GG 
 
@@ -29,54 +27,17 @@ Créer un groupe global
 
 4. Valider. 
 
-
-Ensuite Ajouter l'utilisateur au groupe global
-
-5. Aller dans l’OU contenant l’utilisateur (ex : Utilisateurs_RH) 
-
-6. Clic droit sur l’utilisateur (ex : Placide) 
-
-7. Sélectionner Ajouter au groupe 
-
-8. Entrer le groupe global (ex : GG_RH) 
-
-9. Valider.
-
-
-Ensuite créer un groupe domaine local
-
-10. Aller dans : OU_Groupes → DLG
-
-11. Clic droit → Nouveau → Groupe 
-
-12. Renseigner : 
-
-- Nom du Groupe Domaine Local (ex : DLG_RH) 
-
-- Portée : Local de domaine 
-
-- Type : Sécurité 
-
-13. Valider.
-
-
-Ensuite ajouter le groupe global au groupe domaine local
-
-14. Aller dans : OU_Groupes → GG 
-
-15. Clic droit sur le groupe global (ex : GG_RH)
- 
-16. Sélectionner Ajouter au groupe 
-
-17. Entrer le Groupe Domaine Local (ex : DLG_RH) 
-
-18. Valider.
+| Services              | OU_Groupes       |
+|-----------------------|------------------|
+| Ressources Humaines   | GG_RH            | 
+| Informatique          | GG_INF           |
+| Comptabilité          | GG_CP            | 
 
 ---
 
-## Démonstration : 
+## Démonstration création GG : 
 
-Créer un groupe global
+- Création du GG_RH
 
 <p align="center">
 
@@ -90,19 +51,37 @@ Créer un groupe global
 
 </p>
 
+---
 
-Ensuite ajouter l'utilisateur au groupe global
+Procédure création DLG :
 
-<p align="center">
+Pour la création d'un DLG, la procédure utilisée est la suivante  :
 
-<img src="images/11.png" width="400">
+1. Aller dans : OU_Groupes → DLG 
 
-<img src="images/12.png" width="400">
+2. Clic droit → Nouveau → Groupe 
 
-</p>
+3. Renseigner : 
 
+- Nom du Groupe Global (ex : DLG_RH) 
 
-Ensuite créer un groupe domaine local
+- Portée : Local de domaine
+
+- Type : Sécurité 
+
+4. Valider. 
+
+| Services              | OU_Groupes        |
+|-----------------------|-------------------|
+| Ressources Humaines   | DLG_RH            | 
+| Informatique          | DLG_INF           |
+| Comptabilité          | DLG_CP            | 
+
+---
+
+## Démonstration création DLG : 
+
+- Création du DLG_RH
 
 <p align="center">
 
@@ -114,8 +93,69 @@ Ensuite créer un groupe domaine local
 
 </p>
 
+---
 
-Ensuite ajouter le groupe global au groupe domaine local
+## Procédure d'ajout de l'utilisateur au GG :
+
+Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
+
+1. Aller dans l’OU contenant l’utilisateur (ex : Utilisateurs_RH) 
+
+2. Clic droit sur l’utilisateur (ex : Placide) 
+
+3. Sélectionner Ajouter au groupe 
+
+4. Entrer le groupe global (ex : GG_RH) 
+
+5. Valider.
+
+| Services              | OU_Groupes       | Utilisateurs   |
+|-----------------------|------------------|----------------|
+| Ressources Humaines   | GG_RH            |  Placide       |
+| Informatique          | GG_INF           |  Fortuné       |
+| Comptabilité          | GG_CP            |  Hugues        |
+
+---
+
+## Démonstration d'ajout de l'utilisateur au GG :
+
+- Ajout de l'utilisateur Placide au GG_RH
+
+<p align="center">
+
+<img src="images/11.png" width="400">
+
+<img src="images/12.png" width="400">
+
+</p>
+
+---
+
+## Procédure d'ajout du GG au DLG :
+
+Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
+
+1. Aller dans : OU_Groupes → GG 
+
+2. Clic droit sur le groupe global (ex : GG_RH)
+ 
+3. Sélectionner Ajouter au groupe 
+
+4. Entrer le Groupe Domaine Local (ex : DLG_RH) 
+
+5. Valider.
+
+| Services              | OU_Groupes       | OU_Groupes     |
+|-----------------------|------------------|----------------|
+| Ressources Humaines   | GG_RH            |  DLG_RH        |
+| Informatique          | GG_INF           |  DLG_INF       |
+| Comptabilité          | GG_CP            |  DLG_CP        |
+
+---
+
+## Démonstration d'ajout du GG au DLG :
+
+- Ajout du GG_RH au DLG_RH
 
 <p align="center">
 
@@ -124,6 +164,17 @@ Ensuite ajouter le groupe global au groupe domaine local
 <img src="images/17.png" width="400">
 
 </p>
+
+
+
+
+
+
+
+
+
+
+
 
 
 

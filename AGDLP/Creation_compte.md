@@ -32,6 +32,12 @@ La procédure utilisée est la suivante :
 
 7. Valider la création du compte. 
 
+| Services              | OU_Utilisateurs  | Utilisateurs |
+|-----------------------|------------------|--------------|
+| Ressources Humaines   | Utilisateurs_RH  | Placide      | 
+| Informatique          | Utilisateurs_INF | Fortuné      |
+| Comptabilité          | Utilisateurs_CP  | Hugues       |
+
 ---
 
 ## Démonstration :
