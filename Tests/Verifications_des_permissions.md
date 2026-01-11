@@ -51,11 +51,9 @@ L'utilisateur du groupe domaine local peut lire ou écrire selon les droits déf
 
 <img src="images_NTFS_INF/01.png" width="400">
 
-<img src="images_NTFS_INT/02.png" width="400">
+<img src="images_NTFS_INF/02.png" width="400">
 
-<img src="images_NTFS_INT/03.png" width="400">
-
-<img src="images_NTFS_INT/04.png" width="400">
+<img src="images_NTFS_INF/03.png" width="400">
 
 </p>
 
