@@ -40,22 +40,27 @@ La procédure utilisée est la suivante :
 
 ---
 
-## Démonstration :
+## Démonstrations :
+
+- Création compte utilisateurs_RH du nom de Placide
 
 <p align="center">
 
-<img src="images/01.png" width="400">
+<img src="images_RH/01.png" width="400">
 
-<img src="images/02.png" width="400">
+<img src="images_RH/02.png" width="400">
 
-<img src="images/03.png" width="400">
+<img src="images_RH/03.png" width="400">
 
-<img src="images/04.png" width="400">
+<img src="images_RH/04.png" width="400">
 
-<img src="images/05.png" width="400">
+<img src="images_RH/05.png" width="400">
 
-<img src="images/06.png" width="400">
+<img src="images_RH/06.png" width="400">
 
 </p>
 
+- Création compte utilisateurs_INF du nom de Fortuné
+
+- Création compte utilisateur_CP du nom de Hugues
 

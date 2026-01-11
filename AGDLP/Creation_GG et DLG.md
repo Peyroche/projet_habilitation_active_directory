@@ -41,13 +41,13 @@ Pour la création d'un GG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
-<img src="images/07.png" width="400">
+<img src="images_GG_RH/01.png" width="400">
 
-<img src="images/08.png" width="400">
+<img src="images_GG_RH/02.png" width="400">
 
-<img src="images/09.png" width="400">
+<img src="images_GG_RH/03.png" width="400">
 
-<img src="images/10.png" width="400">
+<img src="images_GG_RH/04.png" width="400">
 
 </p>
 
@@ -85,11 +85,11 @@ Pour la création d'un DLG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
-<img src="images/13.png" width="400">
+<img src="images_DLG_RH/01.png" width="400">
 
-<img src="images/14.png" width="400">
+<img src="images_DLG_RH/02.png" width="400">
 
-<img src="images/15.png" width="400">
+<img src="images_DLG_RH/03.png" width="400">
 
 </p>
 
@@ -123,9 +123,9 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images/11.png" width="400">
+<img src="images_ajout_RH/01.png" width="400">
 
-<img src="images/12.png" width="400">
+<img src="images_ajout_RH/02.png" width="400">
 
 </p>
 
@@ -159,9 +159,9 @@ Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images/16.png" width="400">
+<img src="images_ajout_GG_RH/01.png" width="400">
 
-<img src="images/17.png" width="400">
+<img src="images_ajout_GG_RH/02.png" width="400">
 
 </p>
 

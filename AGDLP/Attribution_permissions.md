@@ -44,29 +44,35 @@ suivante :
 
 ## Démonstration :
 
+- Permissions SMB du Dossier_RH
+
 <p align="center">
 
-<img src="images/18.png" width="400">
+<img src="images_SMB_RH/01.png" width="400">
 
-<img src="images/19.png" width="400">
+<img src="images_SMB_RH/02.png" width="400">
 
-<img src="images/20.png" width="400">
+<img src="images_SMB_RH/03.png" width="400">
 
-<img src="images/21.png" width="400">
+<img src="images_SMB_RH/04.png" width="400">
 
-<img src="images/22.png" width="400">
+<img src="images_SMB_RH/05.png" width="400">
 
-<img src="images/23.png" width="400">
+<img src="images_SMB_RH/06.png" width="400">
 
-<img src="images/24.png" width="400">
+<img src="images_SMB_RH/07.png" width="400">
 
-<img src="images/25.png" width="400">
+<img src="images_SMB_RH/08.png" width="400">
 
-<img src="images/26.png" width="400">
+<img src="images_SMB_RH/09.png" width="400">
 
-<img src="images/27.png" width="400">
+<img src="images_SMB_RH/10.png" width="400">
 
 </p>
+
+- Permissions SMB du Dossier_INF
+
+- Permissions SMB du Dossier_CP
 
 ---
 
@@ -93,27 +99,34 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 | Dossier_INF  | DLG_INF      | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
 | Dossier_CP   | DLG_CP       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
 
-
 ---
 
-## Démonstration : 
+## Démonstrations : 
+
+- Permissions NTFS du Dossier_RH
 
 <p align="center">
 
-<img src="images/28.png" width="400">
+<img src="images_NTFS_RH/01.png" width="400">
 
-<img src="images/29.png" width="400">
+<img src="images_NTFS_RH/02.png" width="400">
 
-<img src="images/30.png" width="400">
+<img src="images_NTFS_RH/03.png" width="400">
 
-<img src="images/31.png" width="400">
+<img src="images_NTFS_RH/04.png" width="400">
 
-<img src="images/32.png" width="400">
+<img src="images_NTFS_RH/05.png" width="400">
 
-<img src="images/33.png" width="400">
+<img src="images_NTFS_RH/06.png" width="400">
 
-<img src="images/34.png" width="400">
+<img src="images_NTFS_RH/07.png" width="400">
+
+<img src="images_NTFS_RH/08.png" width="400">
+
+<img src="images_NTFS_RH/09.png" width="400">
 
 </p>
 
+- Permissions NTFS du Dossier_INF
 
+- Permissions NTFS du Dossier_CP
