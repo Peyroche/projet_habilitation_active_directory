@@ -10,8 +10,7 @@ Attribuer aux groupes domaines local (DLG) les droits d’accès et permissions 
 
 ## Droits de partage SMB :
 
-Les droits de partage SMB s’appliquent au niveau du partage en suivant la procédure 
-suivante :
+Les droits de partage SMB s’appliquent au niveau du partage en suivant la procédure suivante :
 
 1. Clic droit sur le dossier (ex : Dossier_RH)
 
@@ -32,11 +31,11 @@ suivante :
 9. Donner les droits associés au groupe. (ex : Full Control).
 
 
-| Dossiers     | OU_Groupes   | Droits de partage (SMB)                                                              |
-|--------------|--------------|--------------------------------------------------------------------------------------|
-| Dossier_RH   | DLG_RH       | Full Control (Contrôle total) : Modification + gestion des permissions du partage.   | 
-| Dossier_INF  | DLG_INF      | Change (Modification) : Lecture + modification, suppression, création de fichiers.   |
-| Dossier_CP   | DLG_CP       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossiers     | OU_Groupes  | DLG      | Droits de partage SMB                                                                |
+|--------------|-------------|----------|--------------------------------------------------------------------------------------|
+| Dossier_RH   | DLG         | DLG_RH   | Full Control (Contrôle total) : Modification + gestion des permissions du partage.   | 
+| Dossier_INF  | DLG         | DLG_INF  | Change (Modification) : Lecture + modification, suppression, création de fichiers.   |
+| Dossier_CP   | DLG         | DLG_CP   | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
 
 
 ---
@@ -101,23 +100,23 @@ suivante :
 
 <p align="center">
 
-<img src="images_SMB_CP/01.png" width="400">
+<img src="images/images_SMB_CP/01.png" width="400">
 
-<img src="images_SMB_CP/02.png" width="400">
+<img src="images/images_SMB_CP/02.png" width="400">
 
-<img src="images_SMB_CP/03.png" width="400">
+<img src="images/images_SMB_CP/03.png" width="400">
 
-<img src="images_SMB_CP/04.png" width="400">
+<img src="images/images_SMB_CP/04.png" width="400">
 
-<img src="images_SMB_CP/05.png" width="400">
+<img src="images/images_SMB_CP/05.png" width="400">
 
-<img src="images_SMB_CP/06.png" width="400">
+<img src="images/images_SMB_CP/06.png" width="400">
 
-<img src="images_SMB_CP/07.png" width="400">
+<img src="images/images_SMB_CP/07.png" width="400">
 
-<img src="images_SMB_CP/08.png" width="400">
+<img src="images/images_SMB_CP/08.png" width="400">
 
-<img src="images_SMB_CP/09.png" width="400">
+<img src="images/images_SMB_CP/09.png" width="400">
 
 </p>
 
@@ -140,11 +139,11 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 6. Donner les droits associés au groupe. (ex : Change).
 
 
-| Dossiers     | OU_Groupes   | Permissions NTFS                                                                     |
-|--------------|--------------|--------------------------------------------------------------------------------------|
-| Dossier_RH   | DLG_RH       | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
-| Dossier_INF  | DLG_INF      | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
-| Dossier_CP   | DLG_CP       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossiers     | OU_Groupes | DLG     | Permissions NTFS                                                                     |
+|--------------|------------|---------|--------------------------------------------------------------------------------------|
+| Dossier_RH   | DLG        | DLG_RH  | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
+| Dossier_INF  | DLG        | DLG_INF | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossier_CP   | DLG        | DLG_CP  | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
 
 ---
 
@@ -154,23 +153,23 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 
 <p align="center">
 
-<img src="images_NTFS_RH/01.png" width="400">
+<img src="images/images_NTFS_RH/01.png" width="400">
 
-<img src="images_NTFS_RH/02.png" width="400">
+<img src="images/images_NTFS_RH/02.png" width="400">
 
-<img src="images_NTFS_RH/03.png" width="400">
+<img src="images/images_NTFS_RH/03.png" width="400">
 
-<img src="images_NTFS_RH/04.png" width="400">
+<img src="images/images_NTFS_RH/04.png" width="400">
 
-<img src="images_NTFS_RH/05.png" width="400">
+<img src="images/images_NTFS_RH/05.png" width="400">
 
-<img src="images_NTFS_RH/06.png" width="400">
+<img src="images/images_NTFS_RH/06.png" width="400">
 
-<img src="images_NTFS_RH/07.png" width="400">
+<img src="images/images_NTFS_RH/07.png" width="400">
 
-<img src="images_NTFS_RH/08.png" width="400">
+<img src="images/images_NTFS_RH/08.png" width="400">
 
-<img src="images_NTFS_RH/09.png" width="400">
+<img src="images/images_NTFS_RH/09.png" width="400">
 
 </p>
 
@@ -179,15 +178,15 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 
 <p align="center">
 
-<img src="images_NTFS_INF/01.png" width="400">
+<img src="images/images_NTFS_INF/01.png" width="400">
 
-<img src="images_NTFS_INF/02.png" width="400">
+<img src="images/images_NTFS_INF/02.png" width="400">
 
-<img src="images_NTFS_INF/03.png" width="400">
+<img src="images/images_NTFS_INF/03.png" width="400">
 
-<img src="images_NTFS_INF/04.png" width="400">
+<img src="images/images_NTFS_INF/04.png" width="400">
 
-<img src="images_NTFS_INF/05.png" width="400">
+<img src="images/images_NTFS_INF/05.png" width="400">
 
 </p>
 
@@ -196,16 +195,16 @@ Les permissions NTFS s'appliquent sur le disque dans l'onglet sécurité en suiv
 
 <p align="center">
 
-<img src="images_NTFS_CP/01.png" width="400">
+<img src="images/images_NTFS_CP/01.png" width="400">
 
-<img src="images_NTFS_CP/02.png" width="400">
+<img src="images/images_NTFS_CP/02.png" width="400">
 
-<img src="images_NTFS_CP/03.png" width="400">
+<img src="images/images_NTFS_CP/03.png" width="400">
 
-<img src="images_NTFS_CP/04.png" width="400">
+<img src="images/images_NTFS_CP/04.png" width="400">
 
-<img src="images_NTFS_CP/05.png" width="400">
+<img src="images/images_NTFS_CP/05.png" width="400">
 
-<img src="images_NTFS_CP/06.png" width="400">
+<img src="images/images_NTFS_CP/06.png" width="400">
 
 </p>

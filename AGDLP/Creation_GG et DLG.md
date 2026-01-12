@@ -4,14 +4,14 @@
 
 ## Objectifs :
 
-Les groupes globaux (GG) représentent le rôle métier dans l’entreprise. Il sert à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
-Tandis que Les groupes domaines local (DLG) sont utilisés pour attribuer les permissions NTFS et SMB sur les dossiers partagés du serveur. 
+- Créer des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
+- Créer ensuite des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
 
 ---
 
-## Procédure création GG :
+## Procédure création des GG :
 
-Pour la création d'un GG, la procédure utilisée est la suivante  :
+Pour la création des GG, la procédure utilisée est la suivante  :
 
 1. Aller dans : OU_Groupes → GG 
 
@@ -27,25 +27,25 @@ Pour la création d'un GG, la procédure utilisée est la suivante  :
 
 4. Valider. 
 
-| Services              | OU_Groupes       |
-|-----------------------|------------------|
-| Ressources Humaines   | GG_RH            | 
-| Informatique          | GG_INF           |
-| Comptabilité          | GG_CP            | 
+| Services              | OU_Groupes  | GG         |
+|-----------------------|-------------|------------|
+| Ressources Humaines   | GG          | GG_RH      |
+| Informatique          | GG          | GG_INF     |
+| Comptabilité          | GG          | GG_CP      |
 
 ---
 
-## Démonstration création GG : 
+## Démonstration création des GG : 
 
 - Création du GG_RH
 
 <p align="center">
 
-<img src="images_GG_RH/01.png" width="400">
+<img src="images/images_GG_RH/01.png" width="400">
 
-<img src="images_GG_RH/02.png" width="400">
+<img src="image/images_GG_RH/02.png" width="400">
 
-<img src="images_GG_RH/03.png" width="400">
+<img src="images/images_GG_RH/03.png" width="400">
 
 </p>
 
@@ -54,11 +54,11 @@ Pour la création d'un GG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
-<img src="images_GG_INF/01.png" width="400">
+<img src="images/images_GG_INF/01.png" width="400">
 
-<img src="images_GG_INF/02.png" width="400">
+<img src="images/images_GG_INF/02.png" width="400">
 
-<img src="images_GG_INF/03.png" width="400">
+<img src="images/images_GG_INF/03.png" width="400">
 
 </p>
 
@@ -67,19 +67,19 @@ Pour la création d'un GG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
-<img src="images_GG_CP/01.png" width="400">
+<img src="images/images_GG_CP/01.png" width="400">
 
-<img src="images_GG_CP/02.png" width="400">
+<img src="images/images_GG_CP/02.png" width="400">
 
-<img src="images_GG_CP/03.png" width="400">
+<img src="images/images_GG_CP/03.png" width="400">
 
 </p>
 
 ---
 
-## Procédure création DLG :
+## Procédure création des DLG :
 
-Pour la création d'un DLG, la procédure utilisée est la suivante  :
+Pour la création des DLG, la procédure utilisée est la suivante  :
 
 1. Aller dans : OU_Groupes → DLG 
 
@@ -95,25 +95,25 @@ Pour la création d'un DLG, la procédure utilisée est la suivante  :
 
 4. Valider. 
 
-| Services              | OU_Groupes        |
-|-----------------------|-------------------|
-| Ressources Humaines   | DLG_RH            | 
-| Informatique          | DLG_INF           |
-| Comptabilité          | DLG_CP            | 
+| Services              | OU_Groupes | DLG       |
+|-----------------------|------------|-----------|
+| Ressources Humaines   | DLG        | DLG_RH    |
+| Informatique          | DLG        | DLG_INF   |
+| Comptabilité          | DLG        | DLG_CP    |
 
 ---
 
-## Démonstration création DLG : 
+## Démonstration création des DLG : 
 
 - Création du DLG_RH
 
 <p align="center">
 
-<img src="images_DLG_RH/01.png" width="400">
+<img src="images/images_DLG_RH/01.png" width="400">
 
-<img src="images_DLG_RH/02.png" width="400">
+<img src="images/images_DLG_RH/02.png" width="400">
 
-<img src="images_DLG_RH/03.png" width="400">
+<img src="images/images_DLG_RH/03.png" width="400">
 
 </p>
 
@@ -122,11 +122,11 @@ Pour la création d'un DLG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
-<img src="images_DLG_INF/01.png" width="400">
+<img src="images/images_DLG_INF/01.png" width="400">
 
-<img src="images_DLG_INF/02.png" width="400">
+<img src="images/images_DLG_INF/02.png" width="400">
 
-<img src="images_DLG_INF/03.png" width="400">
+<img src="images/images_DLG_INF/03.png" width="400">
 
 </p>
 
@@ -135,19 +135,19 @@ Pour la création d'un DLG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
-<img src="images_DLG_CP/01.png" width="400">
+<img src="images/images_DLG_CP/01.png" width="400">
 
-<img src="images_DLG_CP/02.png" width="400">
+<img src="images/images_DLG_CP/02.png" width="400">
 
-<img src="images_DLG_CP/03.png" width="400">
+<img src="images/images_DLG_CP/03.png" width="400">
 
 </p>
 
 ---
 
-## Procédure d'ajout de l'utilisateur au GG :
+## Procédure d'ajout des utilisateurs au GG :
 
-Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
+Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 1. Aller dans l’OU contenant l’utilisateur (ex : Utilisateurs_RH) 
 
@@ -159,7 +159,7 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | OU_Groupes   | OU_Utilisateurs   | Noms Utilisateurs |
+| Services              | OU_Groupes   | OU_Utilisateurs   | Utilisateurs      |
 |-----------------------|--------------|-------------------|-------------------|
 | Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide          |
 | Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné          |
@@ -167,15 +167,15 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 ---
 
-## Démonstration d'ajout de l'utilisateur au GG :
+## Démonstration d'ajout des utilisateurs au GG :
 
 - Ajout Utilisateur_RH du nom de Placide au GG_RH
 
 <p align="center">
 
-<img src="images_ajout_RH/01.png" width="400">
+<img src="images/images_ajout_RH/01.png" width="400">
 
-<img src="images_ajout_RH/02.png" width="400">
+<img src="images/images_ajout_RH/02.png" width="400">
 
 </p>
 
@@ -184,9 +184,9 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_ajout_INF/01.png" width="400">
+<img src="images/images_ajout_INF/01.png" width="400">
 
-<img src="images_ajout_INF/02.png" width="400">
+<img src="images/images_ajout_INF/02.png" width="400">
 
 </p>
 
@@ -195,17 +195,17 @@ Pour l'ajout de l'utilisateur au GG, la procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_ajout_CP/01.png" width="400">
+<img src="images/images_ajout_CP/01.png" width="400">
 
-<img src="images_ajout_CP/02.png" width="400">
+<img src="images/images_ajout_CP/02.png" width="400">
 
 </p>
 
 ---
 
-## Procédure d'ajout du GG au DLG :
+## Procédure d'ajout des GG aux DLG :
 
-Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
+Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 1. Aller dans : OU_Groupes → GG 
 
@@ -217,23 +217,23 @@ Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | OU_Groupes       | OU_Groupes     |
-|-----------------------|------------------|----------------|
-| Ressources Humaines   | GG_RH            |  DLG_RH        |
-| Informatique          | GG_INF           |  DLG_INF       |
-| Comptabilité          | GG_CP            |  DLG_CP        |
+| Services              | GG       | DLG       |
+|-----------------------|----------|-----------|
+| Ressources Humaines   | GG_RH    | DLG_RH    |
+| Informatique          | GG_INF   | DLG_INF   |
+| Comptabilité          | GG_CP    | DLG_CP    |
 
 ---
 
-## Démonstration d'ajout du GG au DLG :
+## Démonstration d'ajout des GG aux DLG :
 
 - Ajout du GG_RH au DLG_RH
 
 <p align="center">
 
-<img src="images_ajout_GG_RH/01.png" width="400">
+<img src="images/images_ajout_GG_RH/01.png" width="400">
 
-<img src="images_ajout_GG_RH/02.png" width="400">
+<img src="images/images_ajout_GG_RH/02.png" width="400">
 
 </p>
 
@@ -242,9 +242,9 @@ Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_ajout_GG_INF/01.png" width="400">
+<img src="images/images_ajout_GG_INF/01.png" width="400">
 
-<img src="images_ajout_GG_INF/02.png" width="400">
+<img src="images/images_ajout_GG_INF/02.png" width="400">
 
 </p>
 
@@ -253,9 +253,9 @@ Pour l'ajout du GG au DLG, la procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_ajout_GG_CP/01.png" width="400">
+<img src="images/images_ajout_GG_CP/01.png" width="400">
 
-<img src="images_ajout_GG_CP/02.png" width="400">
+<img src="images/images_ajout_GG_CP/02.png" width="400">
 
 </p>
 

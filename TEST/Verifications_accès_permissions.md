@@ -22,7 +22,7 @@ La procédure utilisée est la suivante :
 
 4. Vérifier les permissions.
 
-| Dossiers     | OU_Groupes   | Permissions NTFS                                                                     |
+| Dossiers     | GG           | Permissions NTFS                                                                     |
 |--------------|--------------|--------------------------------------------------------------------------------------|
 | Dossier_RH   | DLG_RH       | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
 | Dossier_INF  | DLG_INF      | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
@@ -36,13 +36,13 @@ La procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_NTFS_RH/01.png" width="400">
+<img src="images/images_NTFS_RH/01.png" width="400">
 
-<img src="images_NTFS_RH/02.png" width="400">
+<img src="images/images_NTFS_RH/02.png" width="400">
 
-<img src="images_NTFS_RH/03.png" width="400">
+<img src="images/images_NTFS_RH/03.png" width="400">
 
-<img src="images_NTFS_RH/04.png" width="400">
+<img src="images/images_NTFS_RH/04.png" width="400">
 
 </p>
 
@@ -51,11 +51,11 @@ La procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_NTFS_INF/01.png" width="400">
+<img src="images/images_NTFS_INF/01.png" width="400">
 
-<img src="images_NTFS_INF/02.png" width="400">
+<img src="images/images_NTFS_INF/02.png" width="400">
 
-<img src="images_NTFS_INF/03.png" width="400">
+<img src="image/images_NTFS_INF/03.png" width="400">
 
 </p>
 
@@ -64,11 +64,11 @@ La procédure utilisée est la suivante :
 
 <p align="center">
 
-<img src="images_NTFS_CP/01.png" width="400">
+<img src="images/images_NTFS_CP/01.png" width="400">
 
-<img src="images_NTFS_CP/02.png" width="400">
+<img src="images/images_NTFS_CP/02.png" width="400">
 
-<img src="images_NTFS_CP/03.png" width="400">
+<img src="images/images_NTFS_CP/03.png" width="400">
 
 </p>
 
