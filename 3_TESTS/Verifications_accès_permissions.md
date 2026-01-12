@@ -1,4 +1,4 @@
-# VERIFICATION DES ACCES ET PERMISSIONS NTFS
+# VERIFICATIONS DES ACCES ET PERMISSIONS NTFS
 
 ---
 
@@ -30,7 +30,7 @@ La procédure utilisée est la suivante :
 
 ## Démonstrations :
 
-- Vérification accès et permissions NTFS au Dossier_RH
+- Vérifications accès et permissions NTFS au Dossier_RH
 
 <p align="center">
 
@@ -53,7 +53,7 @@ La procédure utilisée est la suivante :
 </p>
 
 
-- Vérification accès et permissions NTFS au Dossier_INF
+- Vérifications accès et permissions NTFS au Dossier_INF
 
 <p align="center">
 
@@ -66,7 +66,7 @@ La procédure utilisée est la suivante :
 </p>
 
 
-- Vérification accès et permissions NTFS au Dossier_CP
+- Vérifications accès et permissions NTFS au Dossier_CP
 
 <p align="center">
 

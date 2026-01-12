@@ -1,4 +1,4 @@
-# Jonction du poste client au domaine
+# JONCTION DU POSTE CLIENT AU DOMAINE
 
 ---
 
@@ -6,19 +6,19 @@
 
 Pour joindre le poste client au domaine, la procédure est la suivante :
 
-1. Clic droit sur PC 
+1. Dans le gestionnaire de fichier, clic droit sur PC 
 
-2. Propriété 
+2. Cliquer sur propriété 
 
-3. Cliquer sur renommer ce PC
+3. Ensuite cliquer sur renommer ce PC
 
 4. Modifier
 
-4. Entrer un domaine : mdf.corp 
+5. Entrer un domaine : mdf.corp 
 
-5. Fournir un compte admin du domaine (ex : Administrateur) suivi de son passeword 
+6. Fournir un compte admin du domaine (ex : Administrateur) suivi de son passeword 
 
-6. Redémarrer le poste client.
+7. Redémarrer le poste client.
 
 ---
 

@@ -57,9 +57,20 @@ Partie I – Mise en place d’AGLDP :
 - Attributions des permissions NTFS
 
 - Attributions des droits de partage SMB.
+
+
+Partie II - Réseaux
+
+- Activation carte réseau
+
+- Configuration réseau
+
+- Jonction du poste client
+
+- Tests de configuration
  
 
-Partie II – Tests : 
+Partie III – Tests et validations : 
 
 - Connexion des utilisateurs au domaine
 

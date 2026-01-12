@@ -1,4 +1,4 @@
-# Test de configuration 
+# TESTS DE CONFIGURATION
 
 ---
 

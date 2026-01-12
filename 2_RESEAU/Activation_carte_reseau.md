@@ -1,4 +1,4 @@
-# Activation carte réseau
+# ACTIVATION CARTE RESEAU
 
 ---
 
@@ -6,13 +6,15 @@
 
 Pour activer la carte réseau, la procédure est la suivante :
 
-1. Sur VirtualBox → Paramètres de la VM client 
+1. Ouvrir VirtualBox
 
-2. Onglet Réseau 
+2. Choisi la machine
 
-3. Coche la case "Activer l’interface réseau" 
+3. Clique sur onglet Réseau 
 
-4. Vérifie que : 
+4. Coche la case "Activer l’interface réseau" 
+
+5. Vérifie que : 
 
 - Mode d’accès réseau = Réseau interne 
 

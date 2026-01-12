@@ -1,4 +1,4 @@
-# Configuration du réseau  
+# CONFIGURATION RESEAU 
 
 ---
 
@@ -10,9 +10,9 @@ La procédure de configuration du réseau est la suivante :
 
 2. Cliquer sur Réseau et Internet
 
-3. Cliquer sur centre de partage et réseau
+3. Ensuite cliquer sur centre de partage et réseau
 
-4. Cliquer sur Ethernet
+4. Puis cliquer sur Ethernet
 
 5. Choisir Propriétés
 
