@@ -22,11 +22,11 @@ La procédure utilisée est la suivante :
 
 4. Vérifier les permissions.
 
-| Dossiers     | GG           | Permissions NTFS                                                                     |
-|--------------|--------------|--------------------------------------------------------------------------------------|
-| Dossier_RH   | DLG_RH       | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
-| Dossier_INF  | DLG_INF      | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
-| Dossier_CP   | DLG_CP       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossiers     | DLG      |  GG       |  Utilisateur   | Permissions NTFS                                                                     |
+|--------------|----------|-----------|----------------|--------------------------------------------------------------------------------------|
+| Dossier_RH   | DLG_RH   |  GG_RH    |  Placide       | Change (Modification) : Lecture + modification, suppression, création de fichiers.   | 
+| Dossier_INF  | DLG_INF  |  GG_INF   |  Fortuné       | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
+| Dossier_CP   | DLG_CP   |  GG_CP    |  Hugues        | Read (Lecture) : L’utilisateur peut lire, ouvrir, lister les fichiers.               |
 
 ---
 

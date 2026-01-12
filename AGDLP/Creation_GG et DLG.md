@@ -149,7 +149,7 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
-1. Aller dans l’OU contenant l’utilisateur (ex : Utilisateurs_RH) 
+1. Aller dans l’OU contenant l’utilisateur (ex : Utilisateur_RH) 
 
 2. Clic droit sur l’utilisateur (ex : Placide) 
 
@@ -159,11 +159,11 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | OU_Groupes   | OU_Utilisateurs   | Utilisateurs      |
-|-----------------------|--------------|-------------------|-------------------|
-| Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide          |
-| Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné          |
-| Comptabilité          | GG_CP        | Utilisateur_CP    |  Hugues           |
+| Services              | OU_Groupes   | OU_Utilisateurs   | Utilisateur  |
+|-----------------------|--------------|-------------------|--------------|
+| Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide     |
+| Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné     |
+| Comptabilité          | GG_CP        | Utilisateur_CP    |  Hugues      |
 
 ---
 

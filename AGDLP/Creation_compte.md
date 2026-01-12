@@ -4,7 +4,7 @@
 
 ## Objectif :
 
-Créer les comptes utilisateurs dans l’OU correspondant à son service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
+Créer des comptes utilisateurs dans l’OU correspondant à leur service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
 
 ---
  
@@ -16,7 +16,7 @@ La procédure utilisée est la suivante :
 
 2. Clic sur le domaine 
 
-3. Naviguer jusqu’à l’OU du service concerné (ex : Utilisateurs_RH) 
+3. Naviguer jusqu’à l’OU du service concerné (ex : Utilisateur_RH) 
 
 4. Clic droit → Nouveau → Utilisateur 
 
@@ -32,11 +32,11 @@ La procédure utilisée est la suivante :
 
 7. Valider la création du compte. 
 
-| Services              | OU_Utilisateurs  | Noms Utilisateurs |
-|-----------------------|------------------|-------------------|
-| Ressources Humaines   | Utilisateur_RH   | Placide           | 
-| Informatique          | Utilisateur_INF  | Fortuné           |
-| Comptabilité          | Utilisateur_CP   | Hugues            |
+| Services              | OU_Utilisateurs  | Utilisateur |
+|-----------------------|------------------|-------------|
+| Ressources Humaines   | Utilisateur_RH   | Placide     | 
+| Informatique          | Utilisateur_INF  | Fortuné     |
+| Comptabilité          | Utilisateur_CP   | Hugues      |
 
 ---
 
