@@ -2,7 +2,7 @@
 
 ---
 
-## Procédure :
+## Procédure configuration du réseau :
 
 La procédure de configuration du réseau est la suivante :
 
@@ -27,7 +27,7 @@ La procédure de configuration du réseau est la suivante :
 
 ---
 
-## Démonstration configuration du réseau :
+## Démonstrations :
 
 - Configuration du réseau sur le Serveur Windows Server, effectuée par l'administrateur
 
@@ -106,7 +106,7 @@ Pour activer la carte réseau, la procédure est la suivante :
 
 ---
 
-## Démonstration activation de la carte réseau :
+## Démonstrations :
 
 - Activation carte réseau sur Serveur Windows server
 
@@ -146,7 +146,7 @@ On vérifie la configuration réseau du poste client dans l'invite de commande a
 
 ---
 
-## Démonstration :
+## Démonstrations :
 
 <p align="center">
 
