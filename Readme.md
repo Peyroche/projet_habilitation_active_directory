@@ -4,7 +4,7 @@
 
 ## Présentation de l’architecture : 
 
-L’architecture mise en place dans le cadre de ce projet repose sur une infrastructure Active Directory centralisée, composée d’un serveur principal et de plusieurs postes clients intégrés au domaine. Cette architecture permet de simuler un environnement d’entreprise dans lequel les utilisateurs, les groupes et les ressources sont gérés de manière centralisée. 
+L’architecture mise en place dans le cadre de ce projet repose sur une infrastructure Active Directory centralisée, composée d’un serveur principal et d'un poste client intégré au domaine. Cette architecture permet de simuler un environnement d’entreprise dans lequel les utilisateurs, les groupes et les ressources sont gérés de manière centralisée. 
 
 L’infrastructure se compose des éléments suivants : 
 
@@ -18,7 +18,7 @@ L’infrastructure se compose des éléments suivants :
 
 - 3 groupes locaux de domaine (DLG) associés aux ressources partagées. Ils reçoivent les permissions NTFS et SMB sur les dossiers du serveur. 
 
-- 3 postes clients Windows Pro intégrés au domaine. Ils permettent aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
+- 1 poste client Windows Pro intégrés au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
 
 - 3 dossiers partagés sur le serveur, organisés par service (Ressources Humaines, Informatique, Comptabilité). Chaque dossier est protégé par des permissions adaptées au rôle des 
 utilisateurs. 
@@ -53,9 +53,11 @@ Partie I - Création de l’architecture AD  :
 
 - Configuration du domaine 
 
-- Configuration du réseau et jonction du poste client au domaine 
+- Configuration du réseau 
 
-- Création des 3 dossiers partagés
+- jonction du poste client au domaine 
+
+- Création dossiers partagés
 
 - Création des OU. 
 
