@@ -16,11 +16,9 @@ La procédure utilisée est la suivante :
 
 1. Depuis le poste client, ouvrir l’explorateur de fichiers.
 
-2. Dans la barre d’adresse, saisir : \10.0.0.10\
+2. Dans la barre d’adresse, saisir pour vérifier l'accès aux partages : \10.0.0.10\ 
 
-3. Accès aux partages
-
-4. Vérifier les permissions.
+3. Vérifier les permissions.
 
 | Dossiers     | DLG      |  GG       |  Utilisateur   | Permissions NTFS                                                                     |
 |--------------|----------|-----------|----------------|--------------------------------------------------------------------------------------|
