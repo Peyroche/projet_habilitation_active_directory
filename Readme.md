@@ -45,33 +45,21 @@ La mise en place d’une infrastructure Active Directory implique des enjeux de 
 
 ## Répartition du Document : 
 
-Ce projet est reparti en 3 parties, à savoir :
-
-Partie I - Création de l’architecture AD  : 
-
-- Installation du serveur 
-
-- Configuration du domaine 
-
-- Configuration du réseau 
-
-- jonction du poste client au domaine 
-
-- Création dossiers partagés
-
-- Création des OU. 
+Ce projet est reparti en 2 parties, à savoir :
 
 
-Partie II – Mise en place d’AGLDP :
+Partie I – Mise en place d’AGLDP :
 
 - Création des comptes utilisateurs
 
 - Création des GG et DLG 
 
-- Attribution des permissions NTFS/SMB.
+- Attributions des permissions NTFS
+
+- Attributions des droits de partage SMB.
  
 
-Partie III – Tests et validations : 
+Partie II – Tests : 
 
 - Connexion des utilisateurs au domaine
 
