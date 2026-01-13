@@ -4,7 +4,7 @@
 
 ## Objectifs :
 
-- Créer des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
+Créer des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
 
 | Services              | OU_Groupes  | GG         | OU_Utilisateurs | Utilisateur  |
 |-----------------------|-------------|------------|-----------------|--------------|
@@ -12,7 +12,7 @@
 | Informatique          | GG          | GG_INF     | Utilisateur_INF |  Fortuné     |
 | Comptabilité          | GG          | GG_CP      | Utilisateur_CP  |  Hugues      |
 
-- Créer des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
+Créer des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
 
 | Services              | OU_Groupes | DLG       |
 |-----------------------|------------|-----------|
@@ -42,7 +42,9 @@ Pour la création des GG, la procédure utilisée est la suivante  :
 
 ---
 
-## Démonstration création GG_RH :
+## Démonstration :
+
+Pour la démonstration, nous nous servirons d'un seul exemple.
 
 <p align="center">
 
@@ -51,34 +53,6 @@ Pour la création des GG, la procédure utilisée est la suivante  :
 <img src="image/images_GG_RH/02.png" width="400">
 
 <img src="images/images_GG_RH/03.png" width="400">
-
-</p>
-
----
-
-## Démonstration création du GG_INF :
-
-<p align="center">
-
-<img src="images/images_GG_INF/01.png" width="400">
-
-<img src="images/images_GG_INF/02.png" width="400">
-
-<img src="images/images_GG_INF/03.png" width="400">
-
-</p>
-
----
-
-## Démonstration création du GG_CP :
-
-<p align="center">
-
-<img src="images/images_GG_CP/01.png" width="400">
-
-<img src="images/images_GG_CP/02.png" width="400">
-
-<img src="images/images_GG_CP/03.png" width="400">
 
 </p>
 
@@ -104,7 +78,9 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 ---
 
-## Démonstration création du DLG_RH :
+## Démonstration :
+
+Pour la création des DLG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
@@ -113,34 +89,6 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 <img src="images/images_DLG_RH/02.png" width="400">
 
 <img src="images/images_DLG_RH/03.png" width="400">
-
-</p>
-
----
-
-## Démonstration création du DLG_INF :
-
-<p align="center">
-
-<img src="images/images_DLG_INF/01.png" width="400">
-
-<img src="images/images_DLG_INF/02.png" width="400">
-
-<img src="images/images_DLG_INF/03.png" width="400">
-
-</p>
-
----
-
-## Démonstration création du DLG_CP :
-
-<p align="center">
-
-<img src="images/images_DLG_CP/01.png" width="400">
-
-<img src="images/images_DLG_CP/02.png" width="400">
-
-<img src="images/images_DLG_CP/03.png" width="400">
 
 </p>
 
@@ -162,37 +110,15 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 ---
 
-## Démonstration de l'ajout Utilisateur_RH du nom de Placide au GG_RH :
+## Démonstration :
+
+Pour la création des DLG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
 <img src="images/images_ajout_RH/01.png" width="400">
 
 <img src="images/images_ajout_RH/02.png" width="400">
-
-</p>
-
----
-
-## Démonstration de l'ajout Utilisateur_INF du nom de Fortuné au GG_INF :
-
-<p align="center">
-
-<img src="images/images_ajout_INF/01.png" width="400">
-
-<img src="images/images_ajout_INF/02.png" width="400">
-
-</p>
-
----
-
-## Démonstration de l'ajout Utilisateur_CP du nom de Hugues au GG_CP :
-
-<p align="center">
-
-<img src="images/images_ajout_CP/01.png" width="400">
-
-<img src="images/images_ajout_CP/02.png" width="400">
 
 </p>
 
@@ -214,9 +140,9 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 ---
 
-## Démonstration de l'ajout des GG aux DLG :
+## Démonstration :
 
-- Ajout du GG_RH au DLG_RH
+Pour la création des DLG, la procédure utilisée est la suivante  :
 
 <p align="center">
 
@@ -225,31 +151,6 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 <img src="images/images_ajout_GG_RH/02.png" width="400">
 
 </p>
-
----
-
-## Démonstration de l'ajout du GG_INF au DLG_INF :
-
-<p align="center">
-
-<img src="images/images_ajout_GG_INF/01.png" width="400">
-
-<img src="images/images_ajout_GG_INF/02.png" width="400">
-
-</p>
-
----
-
-## Démonstration de l'ajout du GG_CP au DLG_CP :
-
-<p align="center">
-
-<img src="images/images_ajout_GG_CP/01.png" width="400">
-
-<img src="images/images_ajout_GG_CP/02.png" width="400">
-
-</p>
-
 
 
 
