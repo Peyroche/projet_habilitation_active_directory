@@ -6,6 +6,12 @@
 
 Créer des comptes utilisateurs dans l’OU correspondant à leur service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
 
+| Services              | OU_Utilisateurs  | Utilisateur |
+|-----------------------|------------------|-------------|
+| Ressources Humaines   | Utilisateur_RH   | Placide     | 
+| Informatique          | Utilisateur_INF  | Fortuné     |
+| Comptabilité          | Utilisateur_CP   | Hugues      |
+
 ---
  
 ## Procédure :
@@ -31,16 +37,10 @@ La procédure utilisée est la suivante :
 6. Définir un mot de passe conforme à la politique de sécurité 
 
 7. Valider la création du compte. 
-
-| Services              | OU_Utilisateurs  | Utilisateur |
-|-----------------------|------------------|-------------|
-| Ressources Humaines   | Utilisateur_RH   | Placide     | 
-| Informatique          | Utilisateur_INF  | Fortuné     |
-| Comptabilité          | Utilisateur_CP   | Hugues      |
-
+ 
 ---
 
-## Démonstration Création compte utilisateur_RH du nom de Placide
+## Démonstration création compte utilisateur_RH du nom de Placide
 
 <p align="center">
 
@@ -60,7 +60,7 @@ La procédure utilisée est la suivante :
 
 ---
 
-## Création compte utilisateur_INF du nom de Fortuné
+## Démonstration création compte utilisateur_INF du nom de Fortuné
 
 <p align="center">
 
@@ -80,7 +80,7 @@ La procédure utilisée est la suivante :
 
 ---
 
-## Création compte utilisateur_CP du nom de Hugues
+## Démonstration création compte utilisateur_CP du nom de Hugues
 
 <p align="center">
 

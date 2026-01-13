@@ -5,7 +5,20 @@
 ## Objectifs :
 
 - Créer des Groupes Globaux (GG) qui serviront à regrouper les utilisateurs selon leur service afin d’appliquer ensuite le modèle AGDLP. 
-- Créer ensuite des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
+
+| Services              | OU_Groupes  | GG         | OU_Utilisateurs | Utilisateur  |
+|-----------------------|-------------|------------|-----------------|--------------|
+| Ressources Humaines   | GG          | GG_RH      | Utilisateur_RH  |  Placide     |
+| Informatique          | GG          | GG_INF     | Utilisateur_INF |  Fortuné     |
+| Comptabilité          | GG          | GG_CP      | Utilisateur_CP  |  Hugues      |
+
+- Créer des Groupes Domaines Local (DLG) qui seront utilisés pour attribuer des permissions NTFS/SMB sur les dossiers partagés du serveur. 
+
+| Services              | OU_Groupes | DLG       |
+|-----------------------|------------|-----------|
+| Ressources Humaines   | DLG        | DLG_RH    |
+| Informatique          | DLG        | DLG_INF   |
+| Comptabilité          | DLG        | DLG_CP    |
 
 ---
 
@@ -27,17 +40,9 @@ Pour la création des GG, la procédure utilisée est la suivante  :
 
 4. Valider. 
 
-| Services              | OU_Groupes  | GG         |
-|-----------------------|-------------|------------|
-| Ressources Humaines   | GG          | GG_RH      |
-| Informatique          | GG          | GG_INF     |
-| Comptabilité          | GG          | GG_CP      |
-
 ---
 
-## Démonstration création des GG : 
-
-- Création du GG_RH
+## Démonstration création GG_RH :
 
 <p align="center">
 
@@ -49,8 +54,9 @@ Pour la création des GG, la procédure utilisée est la suivante  :
 
 </p>
 
+---
 
-- Création du GG_INF
+## Démonstration Création du GG_INF :
 
 <p align="center">
 
@@ -62,8 +68,9 @@ Pour la création des GG, la procédure utilisée est la suivante  :
 
 </p>
 
+---
 
-- Création du GG_CP
+## Démonstration création du GG_CP :
 
 <p align="center">
 
@@ -95,17 +102,9 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 4. Valider. 
 
-| Services              | OU_Groupes | DLG       |
-|-----------------------|------------|-----------|
-| Ressources Humaines   | DLG        | DLG_RH    |
-| Informatique          | DLG        | DLG_INF   |
-| Comptabilité          | DLG        | DLG_CP    |
-
 ---
 
-## Démonstration création des DLG : 
-
-- Création du DLG_RH
+## Démonstration création du DLG_RH :
 
 <p align="center">
 
@@ -117,8 +116,9 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 </p>
 
+---
 
-- Création du DLG_INF
+## Démonstration création du DLG_INF :
 
 <p align="center">
 
@@ -130,8 +130,9 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 </p>
 
+---
 
-- Création du DLG_CP
+## Démonstration création du DLG_CP :
 
 <p align="center">
 
@@ -145,7 +146,7 @@ Pour la création des DLG, la procédure utilisée est la suivante  :
 
 ---
 
-## Procédure d'ajout des utilisateurs au GG :
+## Procédure de l'ajout des utilisateurs au GG :
 
 Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
@@ -159,17 +160,9 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | OU_Groupes   | OU_Utilisateurs   | Utilisateur  |
-|-----------------------|--------------|-------------------|--------------|
-| Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide     |
-| Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné     |
-| Comptabilité          | GG_CP        | Utilisateur_CP    |  Hugues      |
-
 ---
 
-## Démonstration d'ajout des utilisateurs au GG :
-
-- Ajout Utilisateur_RH du nom de Placide au GG_RH
+## Démonstration de l'ajout Utilisateur_RH du nom de Placide au GG_RH :
 
 <p align="center">
 
@@ -179,8 +172,9 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 </p>
 
+---
 
-- Ajout de Utilisateur_INF du nom de Fortuné au GG_INF
+## Démonstration de l'ajout Utilisateur_INF du nom de Fortuné au GG_INF :
 
 <p align="center">
 
@@ -190,8 +184,9 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 </p>
 
+---
 
-- Ajout de Utilisateur_CP du nom de Hugues au GG_CP
+## Démonstration de l'ajout Utilisateur_CP du nom de Hugues au GG_CP :
 
 <p align="center">
 
@@ -203,7 +198,7 @@ Pour l'ajout des utilisateurs au GG, la procédure utilisée est la suivante :
 
 ---
 
-## Procédure d'ajout des GG aux DLG :
+## Procédure de l'ajout des GG aux DLG :
 
 Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
@@ -217,15 +212,9 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 5. Valider.
 
-| Services              | GG       | DLG       |
-|-----------------------|----------|-----------|
-| Ressources Humaines   | GG_RH    | DLG_RH    |
-| Informatique          | GG_INF   | DLG_INF   |
-| Comptabilité          | GG_CP    | DLG_CP    |
-
 ---
 
-## Démonstration d'ajout des GG aux DLG :
+## Démonstration de l'ajout des GG aux DLG :
 
 - Ajout du GG_RH au DLG_RH
 
@@ -237,8 +226,9 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 </p>
 
+---
 
-- Ajout du GG_INF au DLG_INF
+## Démonstration de l'ajout du GG_INF au DLG_INF :
 
 <p align="center">
 
@@ -248,8 +238,9 @@ Pour l'ajout des GG aux DLG, la procédure utilisée est la suivante :
 
 </p>
 
+---
 
-- Ajout du GG_CP au DLG_CP
+## Démonstration de l'ajout du GG_CP au DLG_CP :
 
 <p align="center">
 
