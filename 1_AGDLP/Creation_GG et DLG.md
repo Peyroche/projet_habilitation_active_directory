@@ -56,7 +56,7 @@ Pour la création des GG, la procédure utilisée est la suivante  :
 
 ---
 
-## Démonstration Création du GG_INF :
+## Démonstration création du GG_INF :
 
 <p align="center">
 

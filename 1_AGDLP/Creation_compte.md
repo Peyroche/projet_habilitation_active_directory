@@ -4,13 +4,13 @@
 
 ## Objectif :
 
-Créer des comptes utilisateurs dans l’OU correspondant à leur service afin de maintenir une organisation claire et professionnelle du domaine Active Directory. 
+Créer des comptes utilisateurs dans l’OU correspondant à leur service afin de maintenir une organisation claire et professionnelle du domaine Active Directory.
 
-| Services              | OU_Utilisateurs  | Utilisateur |
-|-----------------------|------------------|-------------|
-| Ressources Humaines   | Utilisateur_RH   | Placide     | 
-| Informatique          | Utilisateur_INF  | Fortuné     |
-| Comptabilité          | Utilisateur_CP   | Hugues      |
+| Services              | OU_Utilisateurs  | Utilisateurs |
+|-----------------------|------------------|--------------|
+| Ressources Humaines   | Utilisateur_RH   | Placide      | 
+| Informatique          | Utilisateur_INF  | Fortuné      |
+| Comptabilité          | Utilisateur_CP   | Hugues       |
 
 ---
  
@@ -40,7 +40,9 @@ La procédure utilisée est la suivante :
  
 ---
 
-## Démonstration création compte utilisateur_RH du nom de Placide
+## Démonstration :
+
+Pour la démonstration, nous nous servirons juste d'un seul exemple.
 
 <p align="center">
 
@@ -57,42 +59,3 @@ La procédure utilisée est la suivante :
 <img src="images/images_RH/06.png" width="400">
 
 </p>
-
----
-
-## Démonstration création compte utilisateur_INF du nom de Fortuné
-
-<p align="center">
-
-<img src="images/images_INF/01.png" width="400">
-
-<img src="images/images_INF/02.png" width="400">
-
-<img src="images/images_INF/03.png" width="400">
-
-<img src="images/images_INF/04.png" width="400">
-
-<img src="images/images_INF/05.png" width="400">
-
-<img src="images/images_INF/06.png" width="400">
-
-</p>
-
----
-
-## Démonstration création compte utilisateur_CP du nom de Hugues
-
-<p align="center">
-
-<img src="images/images_CP/01.png" width="400">
-
-<img src="images/images_CP/02.png" width="400">
-
-<img src="images/images_CP/03.png" width="400">
-
-<img src="images/images_CP/04.png" width="400">
-
-<img src="images/images_CP/05.png" width="400">
-
-</p>
-
