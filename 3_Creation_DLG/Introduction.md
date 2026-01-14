@@ -8,7 +8,7 @@ La mise en place des DLG s’inscrit dans la continuité du modèle AGDLP, qui v
 
 ---
 
-## Procédure création DLG :
+## Procédure création des DLG :
 
 La procédure utilisée est la suivante  :
 
@@ -38,7 +38,7 @@ La procédure utilisée est la suivante  :
 
 ---
 
-## Procédure ajout GG :
+## Procédure ajout des GG aux DLG :
 
 La procédure utilisée est la suivante :
 
@@ -56,7 +56,7 @@ La procédure utilisée est la suivante :
 
 ## Tableau récapitulatif :
 
-| Services              | OU_Groupes   | OU_Utilisateurs   | Utilisateur  |
+| Services              | OU_Groupes   | OU_Utilisateurs   | Utilisateurs |
 |-----------------------|--------------|-------------------|--------------|
 | Ressources Humaines   | GG_RH        | Utilisateur_RH    |  Placide     |
 | Informatique          | GG_INF       | Utilisateur_INF   |  Fortuné     |
