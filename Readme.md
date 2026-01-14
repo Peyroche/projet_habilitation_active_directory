@@ -21,6 +21,7 @@ L’infrastructure se compose des éléments suivants :
 - 3 postes clients Windows 10 Pro intégrés au domaine. Ils permettent aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
 
 - 3 dossiers partagés sur le serveur, organisés par service (Ressources Humaines, Informatique, Comptabilité). Chaque dossier est protégé par des permissions adaptées au rôle des 
+
 utilisateurs. 
 
 ---
@@ -60,6 +61,6 @@ Partie 1 : Mise en place AGLDP
 
 Partie 2 : Réseau 
 
-- Configuration réseau et cartes réseaux
+- Configuration réseau et cartes réseaux, suivi d'un test de configuration
 
 - Jonction postes clients au domaine.

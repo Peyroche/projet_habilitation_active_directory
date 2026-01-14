@@ -68,7 +68,7 @@ La procédure utilisée est la suivante :
 
 ---
 
-## Test après jonction d'un poste client PC_RH Windows 10 au domaine :
+## Authentification utilisateur_RH au domaine sur un poste client PC_RH Windows 10 :
 
 Avant même que l’utilisateur_RH ne tape son mot de passe, le poste effectue une authentification machine auprès du contrôleur de domaine. Le PC utilise son compte ordinateur (créé dans AD lors de la jonction). Il prouve son identité grâce à un mot de passe machine (géré automatiquement et changé tous les 30 jours).
 
