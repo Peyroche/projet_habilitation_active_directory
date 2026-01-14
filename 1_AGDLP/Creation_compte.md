@@ -28,15 +28,13 @@ La procédure utilisée est la suivante :
 
 5. Renseigner les informations :  
 
-- Prénom (ex : Placide)
-
-- Nom  
+- Prénom (ex : Placide) 
 
 - Nom d’ouverture de session (ex : Placide) 
 
 6. Définir un mot de passe conforme à la politique de sécurité 
 
-7. Valider la création du compte. 
+7. Valider. 
  
 ---
 
@@ -46,16 +44,16 @@ Pour la démonstration, nous nous servirons juste d'un seul exemple.
 
 <p align="center">
 
-<img src="images/images_RH/01.png" width="400">
+<img src="images_1/images_RH/01.png" width="400">
 
-<img src="imaes/images_RH/02.png" width="400">
+<img src="images_1/images_RH/02.png" width="400">
 
-<img src="images/images_RH/03.png" width="400">
+<img src="images_1/images_RH/03.png" width="400">
 
-<img src="images/images_RH/04.png" width="400">
+<img src="images_1/images_RH/04.png" width="400">
 
-<img src="images/images_RH/05.png" width="400">
+<img src="images_1/images_RH/05.png" width="400">
 
-<img src="images/images_RH/06.png" width="400">
+<img src="images_1/images_RH/06.png" width="400">
 
 </p>
