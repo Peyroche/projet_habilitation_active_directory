@@ -4,7 +4,7 @@
 
 ## I. Contexte :
 
-Dans le cadre de ma formation et de ma montée en compétences en administration système, j’ai choisi de mettre en place une infrastructure Active Directory complète afin de comprendre et maîtriser les mécanismes d’habilitation, de gestion des utilisateurs et de sécurisation des accès. L’objectif est de simuler un environnement de l'entreprise MDF comprenant plusieurs services (Informatique, Comptabilité, Marketing) et de mettre en œuvre une gestion des permissions conforme au modèle AGDLP. 
+Dans le cadre de ma formation en BTS SIO et de ma montée en compétences en administration système, j’ai choisi de mettre en place une infrastructure Active Directory complète afin de comprendre et maîtriser les mécanismes d’habilitation, de gestion des utilisateurs et de sécurisation des accès. L’objectif est de simuler un environnement de l'entreprise MDF comprenant plusieurs services (Informatique, Comptabilité, Marketing) et de mettre en œuvre une gestion des permissions conforme au modèle AGDLP. 
 
 ---
 
@@ -49,7 +49,7 @@ Le projet à pour objectif :
 
 ## III.1. Installation Windows server et domaine active directory :
 
-## Installation et configuration Windows server :
+## Installation et configuration windows server :
 
 <p align="center">
 
