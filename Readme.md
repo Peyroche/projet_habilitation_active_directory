@@ -44,7 +44,7 @@ L’infrastructure se compose des éléments suivants :
 
 ---
 
-## III.1. Installation Windows Server et Domaine Active Directory :
+## III.1. Installation Windows Server :
 
 ## Installation Windows Server :
 
@@ -102,7 +102,9 @@ L’infrastructure se compose des éléments suivants :
 
 </p>
 
-## Installation Domaine Active Directory :
+---
+
+## III.2. Installation Domaine Active Directory :
 
 <p align="center">
 
@@ -150,7 +152,7 @@ L’infrastructure se compose des éléments suivants :
 
 ---
 
-## III.2. Installation du Serveur GLPI :
+## III.3. Installation Serveur GLPI :
 
 <p align="center">
 
@@ -196,9 +198,7 @@ L’infrastructure se compose des éléments suivants :
 
 ---
 
-## III.3. Installation Postes Clients :
-
-## III.3.1. Installation Poste Client PC01 du Service IT :
+## III.4. Installation Poste Client PC01 du Service IT :
 
 <p align="center">
 
@@ -254,7 +254,9 @@ L’infrastructure se compose des éléments suivants :
 
 </p>
 
-## III.3.2. Installation Poste Client PC02 du Service_Compta :
+---
+
+## III.5. Installation Poste Client PC02 du Service_Compta :
 
 
 
