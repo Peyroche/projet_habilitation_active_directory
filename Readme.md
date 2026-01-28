@@ -28,12 +28,6 @@ L’infrastructure se compose des éléments suivants :
 
 - dossiers partagés sur le serveur, organisés par service (Informatique, Comptabilité, Marketing). Chaque dossier est protégé par des permissions adaptées au rôle des utilisateurs. 
 
-<p align="center">
-
-<img src="architecture/01.png" width="400"> 
-                                                                                                                                
-</p> 
-
 ---
 
 ## III. Objectifs du projet : 
