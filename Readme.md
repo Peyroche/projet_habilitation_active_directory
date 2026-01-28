@@ -1,77 +1,239 @@
-# Projet 1 : Habilitation_AD
+# Projet 1 : Habilitation Active Directory
 
 ---
 
-## Présentation de l’architecture : 
+## I. Contexte :
 
-L’architecture mise en place dans le cadre de ce projet repose sur une infrastructure Active Directory centralisée, composée d’un serveur principal et d'un poste client intégré au domaine. Cette architecture permet de simuler un environnement d’entreprise dans lequel les utilisateurs, les groupes et les ressources sont gérés de manière centralisée. 
+Dans le cadre de ma formation et de ma montée en compétences en administration système, j’ai choisi de mettre en place une infrastructure Active Directory complète afin de comprendre et maîtriser les mécanismes d’habilitation, de gestion des utilisateurs et de sécurisation des accès. L’objectif est de simuler un environnement de l'entreprise MDF comprenant plusieurs services (Informatique, Comptabilité, Marketing) et de mettre en œuvre une gestion des permissions conforme au modèle AGDLP. 
+
+---
+
+## II. Présentation de l’architecture : 
 
 L’infrastructure se compose des éléments suivants : 
 
-- 1 serveur Windows Server jouant le rôle de contrôleur de domaine (DC). Il héberge les services essentiels : Active Directory Domain Services (AD DS), DNS, gestion des utilisateurs, des groupes et des stratégies de sécurité. 
+- serveur glpi dédié à la gestion du parc informatique et des tickets d’assistance. Il est intégré à l’infrastructure via le domaine Active Directory, permettant l’authentification centralisée des utilisateurs (SSO) et l’inventaire automatisé des postes grâce à l’agent GLPI. Ce serveur joue un rôle essentiel dans la supervision, la maintenance et la traçabilité des équipements du parc.
 
-- 1 domaine Active Directory structuré selon une logique professionnelle. Le domaine permet l’authentification centralisée des utilisateurs et la gestion des permissions via le modèle AGDLP. 
+- serveur Windows Server jouant le rôle de contrôleur de domaine (DC). Il héberge les services essentiels : Active Directory Domain Services (AD DS), DNS, gestion des utilisateurs, des groupes et des stratégies de sécurité. 
 
-- 3 unités d’organisation (OU) permettant de structurer les utilisateurs, les groupes et les postes clients. Cette organisation facilite l’application de stratégies de groupe (GPO) et la gestion des habilitations. 
+- domaine Active Directory structuré selon une logique professionnelle. Le domaine permet l’authentification centralisée des utilisateurs et la gestion des permissions via le modèle AGDLP. 
 
-- 3 groupes globaux (GG) représentant les rôles métiers (Ressources Humaines, Informatique, Comptabilité). Ils regroupent les utilisateurs selon leur fonction. 
+- unités d’organisation (OU) permettant de structurer les utilisateurs, les groupes et les postes clients. Cette organisation facilite l’application de stratégies de groupe (GPO) et la gestion des habilitations. 
 
-- 3 groupes locaux de domaine (DLG) associés aux ressources partagées. Ils reçoivent les permissions NTFS et SMB sur les dossiers du serveur. 
+- groupes globaux (GG) représentant les rôles métiers (Ressources Humaines, Informatique, Comptabilité). Ils regroupent les utilisateurs selon leur fonction. 
 
-- 1 poste client Windows Pro intégrés au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
+- groupes locaux de domaine (DLG) associés aux ressources partagées. Ils reçoivent les permissions NTFS et SMB sur les dossiers du serveur. 
 
-- 3 dossiers partagés sur le serveur, organisés par service (Ressources Humaines, Informatique, Comptabilité). Chaque dossier est protégé par des permissions adaptées au rôle des 
-utilisateurs. 
+- poste client Windows Pro intégrés au domaine. Il permet aux utilisateurs de se connecter avec leur compte AD et d’accéder aux ressources selon leurs droits. 
 
----
+- dossiers partagés sur le serveur, organisés par service (Informatique, Comptabilité, Marketing). Chaque dossier est protégé par des permissions adaptées au rôle des utilisateurs. 
 
-## Enjeux de sécurité :
+<p align="center">
 
-La mise en place d’une infrastructure Active Directory implique des enjeux de sécurité importants. L’objectif est de garantir que chaque utilisateur accède uniquement aux ressources nécessaires à son rôle, tout en protégeant les données sensibles de l’entreprise. Les principaux enjeux de sécurité de ce projet sont les suivants : 
-
-- Confidentialité des données Assurer que les informations sensibles (Ressources Humaines, Informatique, Comptabilité) ne soient accessibles qu’aux utilisateurs autorisés. Les permissions NTFS et SMB, combinées au modèle AGDLP, permettent de contrôler précisément ces accès. 
-
-- Intégrité des informations Empêcher toute modification non autorisée des fichiers. Les droits d’écriture, de modification ou de suppression sont attribués uniquement aux groupes qui en ont besoin. 
-
-- Traçabilité et responsabilité Chaque utilisateur possède un compte nominatif dans Active Directory. Cela permet d’identifier clairement qui accède à quoi, et de responsabiliser les actions effectuées sur les ressources partagées. 
-
-- Réduction des risques d’erreurs humaines En centralisant la gestion des droits via AGDLP, on évite les erreurs manuelles (droits donnés directement à un utilisateur, héritages non maîtrisés, etc.). La structure devient plus lisible, plus stable et plus facile à auditer. 
-
-- Sécurisation du réseau et des postes clients L’intégration des postes au domaine permet une authentification centralisée, l’application de stratégies de sécurité (GPO), et une meilleure protection contre les accès non autorisés. 
-
-- Scalabilité et maintien opérationnel Une architecture bien structurée permet d’ajouter ou retirer des utilisateurs, services ou ressources sans compromettre la sécurité. Les droits sont gérés par groupes, ce qui évite les dérives et garantit une évolution propre.
+<img src="architecture/01.png" width="400"> 
+                                                                                                                                
+</p> 
 
 ---
 
-## Répartition du Document : 
+## III. Objectifs du projet : 
 
-Ce projet est reparti en 2 parties, à savoir :
+Le projet à pour objectif : 
+
+- d'installer un serveur Windows Server,
+- d'installer un domaine active directory,
+- d'installer un serveur glpi,
+- d'installer trois postes clients,
+- de créer des unités d’organisation, 
+- de créer des groupes globaux, 
+- de créer des groupes locaux de domaine,
+- de créer des utilisateurs,
+- de créer des dossiers partages,
+- de joindre les postes aux domaines.
+
+---
+
+## III.1. Installation Windows server et domaine active directory :
+
+## Installation et configuration Windows server :
+
+<p align="center">
+
+<img src="configuration_2/01.png" width="400">
+
+<img src="configuration_2/02.png" width="400">
+
+<img src="configuration_2/03.png" width="400">
+
+<img src="configuration_2/04.png" width="400">
+
+<img src="configuration_2/05.png" width="400">
+
+<img src="configuration_2/06.png" width="400">
+
+<img src="configuration_2/07.png" width="400">
+
+<img src="configuration_2/08.png" width="400">
+
+<img src="configuration_2/09.png" width="400">
+
+<img src="configuration_2/10.png" width="400">
+
+<img src="configuration_2/11.png" width="400">
+
+<img src="configuration_2/12.png" width="400">
+
+<img src="configuration_2/13.png" width="400">
+
+<img src="configuration_2/14.png" width="400">
+
+<img src="configuration_2/15.png" width="400">
+
+<img src="configuration_2/16.png" width="400">
+
+</p>
+
+## Installation du domaine active directory :
 
 
-Partie I – Mise en place d’AGLDP :
-
-- Création des comptes utilisateurs
-
-- Création des GG et DLG 
-
-- Attributions des permissions NTFS
-
-- Attributions des droits de partage SMB.
 
 
-Partie II - Réseaux
 
-- Activation carte réseau
 
-- Configuration réseau
 
-- Jonction du poste client
 
-- Tests de configuration
- 
 
-Partie III – Tests et validations : 
 
-- Connexion des utilisateurs au domaine
 
-- Vérifications accès et permissions NTFS.
+
+
+
+
+
+
+---
+
+## III.2. Installation du serveur glpi :
+
+Prérequis à télécharger :
+
+- WampServer (PHP version 7.4.33) 
+- Packages Microsoft Visual C++ 
+- GLPI version 10.0.6
+
+## Installation WampServer :
+
+WampServer est une plateforme de développement web pour Windows. Elle permet : de créer et tester des sites web en local, d'utiliser des technologies comme (Apache, MySQL, PHP), de gérer les bases de données avec phpMyAdmin.
+
+<p align="center">
+
+<img src="wampserver/01.png" width="400">
+
+<img src="wampserver/02.png" width="400">
+
+<img src="wampserver/03.png" width="400">
+
+<img src="wampserver/04.png" width="400">
+
+<img src="wampserver/05.png" width="400">
+
+<img src="wampserver/06.png" width="400">
+
+<img src="wampserver/07.png" width="400">
+
+<img src="wampserver/08.png" width="400">
+
+<img src="wampserver/09.png" width="400">
+
+<img src="wampserver/10.png" width="400">
+
+</p>
+
+## Installation GLPI :
+
+GLPI est un logiciel libre de gestion informatique (ITSM) qui permet de gérer : un parc informatique, les utilisateurs, les tickets d’assistance et l’ensemble des services IT d’une organisation. GLPI permet d’appliquer concrètement les processus ITIL dans une organisation. 
+
+ITIL (Information Technology Infrastructure Library) est un référentiel international qui décrit les meilleures pratiques pour organiser un service informatique. Il définit des processus tels que : gestion des incidents, gestion des demandes, gestion des problèmes, gestion des changements, gestion des actifs (CMDB), gestion des connaissances, gestion du catalogue de services, suivi des SLA et qualité de service.
+
+<p align="center">
+
+<img src="glpi/01.png" width="400">
+
+<img src="glpi/02.png" width="400">
+
+<img src="glpi/03.png" width="400">
+
+<img src="glpi/04.png" width="400">
+
+<img src="glpi/05.png" width="400">
+
+<img src="glpi/06.png" width="400">
+
+<img src="glpi/07.png" width="400">
+
+<img src="glpi/08.png" width="400">
+
+<img src="glpi/09.png" width="400">
+
+<img src="glpi/10.png" width="400">
+
+<img src="glpi/11.png" width="400">
+
+<img src="glpi/12.png" width="400">
+
+<img src="glpi/13.png" width="400">
+
+<img src="glpi/14.png" width="400">
+
+</p>
+
+---
+
+III.3. Installation et configuration postes clients :
+
+<p align="center">
+
+<img src="configuration_1/01.png" width="400">
+
+<img src="configuration_1/02.png" width="400">
+
+<img src="configuration_1/03.png" width="400">
+
+<img src="configuration_1/04.png" width="400">
+
+<img src="configuration_1/05.png" width="400">
+
+<img src="configuration_1/06.png" width="400">
+
+<img src="configuration_1/07.png" width="400">
+
+<img src="configuration_1/08.png" width="400">
+
+<img src="configuration_1/09.png" width="400">
+
+<img src="configuration_1/10.png" width="400">
+
+<img src="configuration_1/11.png" width="400">
+
+<img src="configuration_1/12.png" width="400">
+
+<img src="configuration_1/13.png" width="400">
+
+<img src="configuration_1/14.png" width="400">
+
+<img src="configuration_1/15.png" width="400">
+
+<img src="configuration_1/16.png" width="400">
+
+</p>
+
+---
+
+
+
+
+
+
+
+
+
