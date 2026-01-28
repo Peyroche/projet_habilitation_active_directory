@@ -198,7 +198,7 @@ L’infrastructure se compose des éléments suivants :
 
 ## III.3. Installation Postes Clients :
 
-## III.3.1. Installation Poste Client Service IT :
+## III.3.1. Installation Poste Client PC01 du Service IT :
 
 <p align="center">
 
