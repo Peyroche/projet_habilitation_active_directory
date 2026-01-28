@@ -183,7 +183,7 @@ ITIL (Information Technology Infrastructure Library) est un référentiel intern
 
 ---
 
-III.3. Installation et configuration postes clients :
+## III.3. Installation et configuration postes clients :
 
 <p align="center">
 
