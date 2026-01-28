@@ -47,63 +47,109 @@ Le projet à pour objectif :
 
 ---
 
-## III.1. Installation Windows server et domaine active directory :
+## III.1. Installation windows server et domaine active directory :
 
-## Installation et configuration windows server :
+## Installation windows server :
 
 <p align="center">
 
-<img src="configuration_2/01.png" width="400">
+<img src="install_2/01.png" width="400">
 
-<img src="configuration_2/02.png" width="400">
+<img src="install_2/02.png" width="400">
 
-<img src="configuration_2/03.png" width="400">
+<img src="install_2/03.png" width="400">
 
-<img src="configuration_2/04.png" width="400">
+<img src="install_2/04.png" width="400">
 
-<img src="configuration_2/05.png" width="400">
+<img src="install_2/05.png" width="400">
 
-<img src="configuration_2/06.png" width="400">
+<img src="install_2/06.png" width="400">
 
-<img src="configuration_2/07.png" width="400">
+<img src="install_2/07.png" width="400">
 
-<img src="configuration_2/08.png" width="400">
+<img src="install_2/08.png" width="400">
 
-<img src="configuration_2/09.png" width="400">
+<img src="install_2/09.png" width="400">
 
-<img src="configuration_2/10.png" width="400">
+<img src="install_2/10.png" width="400">
 
-<img src="configuration_2/11.png" width="400">
+<img src="install_2/11.png" width="400">
 
-<img src="configuration_2/12.png" width="400">
+<img src="install_2/12.png" width="400">
 
-<img src="configuration_2/13.png" width="400">
+<img src="install_2/13.png" width="400">
 
-<img src="configuration_2/14.png" width="400">
+<img src="install_2/14.png" width="400">
 
-<img src="configuration_2/15.png" width="400">
+<img src="install_2/15.png" width="400">
 
-<img src="configuration_2/16.png" width="400">
+<img src="install_2/16.png" width="400">
+
+</p>
+
+## Configuration windows server :
+
+<p align="center">
+
+<img src="config/01.png" width="400">
+
+<img src="config/02.png" width="400">
+
+<img src="config/03.png" width="400">
+
+<img src="config/04.png" width="400">
+
+<img src="config/05.png" width="400">
+
+<img src="config/06.png" width="400">
 
 </p>
 
 ## Installation du domaine active directory :
 
+<p align="center">
 
+<img src="domaine/01.png" width="400">
 
+<img src="domaine/02.png" width="400">
 
+<img src="domaine/03.png" width="400">
 
+<img src="domaine/04.png" width="400">
 
+<img src="domaine/05.png" width="400">
 
+<img src="domaine/06.png" width="400">
 
+<img src="domaine/07.png" width="400">
 
+<img src="domaine/08.png" width="400">
 
+<img src="domaine/09.png" width="400">
 
+<img src="domaine/10.png" width="400">
 
+<img src="domaine/11.png" width="400">
 
+<img src="domaine/12.png" width="400">
 
+<img src="domaine/13.png" width="400">
 
+<img src="domaine/14.png" width="400">
 
+<img src="domaine/15.png" width="400">
+
+<img src="domaine/16.png" width="400">
+
+<img src="domaine/17.png" width="400">
+
+<img src="domaine/18.png" width="400">
+
+<img src="domaine/19.png" width="400">
+
+<img src="domaine/20.png" width="400">
+
+</p>
 
 ---
 
@@ -139,37 +185,37 @@ Le projet à pour objectif :
 
 <p align="center">
 
-<img src="configuration_1/01.png" width="400">
+<img src="install_1/01.png" width="400">
 
-<img src="configuration_1/02.png" width="400">
+<img src="install_1/02.png" width="400">
 
-<img src="configuration_1/03.png" width="400">
+<img src="install_1/03.png" width="400">
 
-<img src="configuration_1/04.png" width="400">
+<img src="install_1/04.png" width="400">
 
-<img src="configuration_1/05.png" width="400">
+<img src="install_1/05.png" width="400">
 
-<img src="configuration_1/06.png" width="400">
+<img src="install_1/06.png" width="400">
 
-<img src="configuration_1/07.png" width="400">
+<img src="install_1/07.png" width="400">
 
-<img src="configuration_1/08.png" width="400">
+<img src="install_1/08.png" width="400">
 
-<img src="configuration_1/09.png" width="400">
+<img src="install_1/09.png" width="400">
 
-<img src="configuration_1/10.png" width="400">
+<img src="install_1/10.png" width="400">
 
-<img src="configuration_1/11.png" width="400">
+<img src="install_1/11.png" width="400">
 
-<img src="configuration_1/12.png" width="400">
+<img src="install_1/12.png" width="400">
 
-<img src="configuration_1/13.png" width="400">
+<img src="install_1/13.png" width="400">
 
-<img src="configuration_1/14.png" width="400">
+<img src="install_1/14.png" width="400">
 
-<img src="configuration_1/15.png" width="400">
+<img src="install_1/15.png" width="400">
 
-<img src="configuration_1/16.png" width="400">
+<img src="install_1/16.png" width="400">
 
 </p>
 
