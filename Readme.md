@@ -281,7 +281,7 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
-### Affectation groupes globaux aux groupes domaines locaux
+### Affectation des groupes globaux aux groupes domaines locaux
 
 <p align="center">
 
