@@ -185,6 +185,8 @@ Création d’un script PowerShell permettant de :
 
 ### Ajout d’un poste client Windows 10 au domaine
 
+<p align="center">
+
 <img src="ajout_PC02/01.png" width="400">
 
 <img src="ajout_PC02/02.png" width="400">
