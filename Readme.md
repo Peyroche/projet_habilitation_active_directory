@@ -117,7 +117,7 @@ Création d’un script PowerShell permettant de :
 
 <img src="install_serveur/01.png" width="400">
 
-<img src="install_server/02.png" width="400">
+<img src="install_serveur/02.png" width="400">
 
 <img src="install_serveur/03.png" width="400">
 
@@ -183,5 +183,5 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
-
+### Ajout d’un poste client Windows 10 au domaine
 
