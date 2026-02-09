@@ -213,7 +213,7 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
-## 2. Organisation de l’Active Directory
+### 2. Organisation de l’Active Directory
   
 | Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           |                          
 |----------------------|----------------------|---------------------|------------------|
@@ -253,7 +253,7 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
-### Création des utilisateurs et affectation aux groupes
+### Création des utilisateurs
 
 <p align="center">
 
@@ -269,3 +269,26 @@ Création d’un script PowerShell permettant de :
 
 </p>
 
+### Affectation des utilisateurs aux groupes globaux
+
+<p align="center">
+
+<img src="affectation_utilisateurs/01.png" width="400">
+
+<img src="affectation_utilisateurs/02.png" width="400">
+
+<img src="affectation_utilisateurs/03.png" width="400">
+
+</p>
+
+### Affectation groupes globaux aux groupes domaines locaux
+
+<p align="center">
+
+<img src="affectation_GG/01.png" width="400">
+
+<img src="affectation_GG/02.png" width="400">
+
+<img src="affectation_GG/03.png" width="400">
+
+</p>
