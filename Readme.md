@@ -214,14 +214,14 @@ Création d’un script PowerShell permettant de :
 </p>
 
 ## 2. Organisation de l’Active Directory
+  
+| Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           |                          
+|----------------------|----------------------|---------------------|------------------|
+| RH                   | Placide              | GG_RH               | DLG_RH           | 
+| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       | 
+| Informatique         | Mercier              | GG_IT               | DLG_IT           | 
 
 ### Création des unités d'organisation (OU)
-  
-| Secteur              | OU_Utilisateurs            | OU_GG               | OU_DLG           |                          
-|----------------------|----------------------------|---------------------|------------------|
-| RH                   | OU_Utilisateurs_RH         | OU_GG_RH            | OU_DLG_RH        | 
-| Comptabilité         | OU_Utilisateurs_Compta     | OU_GG_Compta        | OU_DLG_Compta    | 
-| Informatique         | OU_Utilisateurs_IT         | OU_GG_IT            | OU_DLG_IT        | 
 
 <p align="center">
 
@@ -237,8 +237,35 @@ Création d’un script PowerShell permettant de :
 
 ### Création des groupes de sécurité
 
+<p align="center">
 
+<img src="GG_DLG/01" width="400">
 
+<img src="GG_DLG/02.png" width="400">
 
+<img src="GG_DLG/03.png" width="400">
 
+<img src="GG_DLG/04.png" width="400">
+
+<img src="GG_DLG/05.png" width="400">
+
+<img src="GG_DLG/06.png" width="400">
+
+</p>
+
+### Création des utilisateurs et affectation aux groupes
+
+<p align="center">
+
+<img src="utilisateurs/01" width="400">
+
+<img src="utilisateurs/02.png" width="400">
+
+<img src="utilisateurs/03.png" width="400">
+
+<img src="utilisateurs/04.png" width="400">
+
+<img src="utilisateurs/05.png" width="400">
+
+</p>
 
