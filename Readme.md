@@ -43,8 +43,8 @@
 <p>Faciliter les audits internes ou externes.</p>
 
 <p><b>5. Simplifier la gestion quotidienne des administrateurs</b></p>
-<p><b>Centraliser la gestion via Active Directory.</b></p>
-<p><b>Automatiser les contrôles pour gagner du temps et éviter les erreurs humaines.</b></p>
+<p>Centraliser la gestion via Active Directory.</p>
+<p>Automatiser les contrôles pour gagner du temps et éviter les erreurs humaines.</p>
 
 ---
 
