@@ -33,9 +33,9 @@
 <p><b>3. Automatiser la vérification des droits d’accès</b></p>
 
 <p>Développer un script PowerShell capable :</p>
-<p>d'analyser les permissions du dossier</p>
-<p>comparer les droits réels avec les droits attendus</p>
-<p>signaler les écarts ou anomalies.</p>
+<p>Analyser les permissions du dossier</p>
+<p>Comparer les droits réels avec les droits attendus</p>
+<p>Signaler les écarts ou anomalies.</p>
 
 <p><b>4. Renforcer la sécurité du système d’information</b></p>
 <p>Réduire les risques d’accès non autorisés</p>
