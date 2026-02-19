@@ -346,27 +346,27 @@
 
 <p align="center">
 
-<img src="NTFS/01.png" width="400">
+<img src="permission_NTFS/01.png" width="400">
 
-<img src="NTFS/02.png" width="400">
+<img src="permission_NTFS/02.png" width="400">
 
-<img src="NTFS/03.png" width="400">
+<img src="permission_NTFS/03.png" width="400">
 
-<img src="NTFS/04.png" width="400">
+<img src="permission_NTFS/04.png" width="400">
 
-<img src="NTFS/05.png" width="400">
+<img src="permission_NTFS/05.png" width="400">
 
-<img src="NTFS/06.png" width="400">
+<img src="permission_NTFS/06.png" width="400">
 
-<img src="NTFS/07.png" width="400">
+<img src="permission_NTFS/07.png" width="400">
 
-<img src="NTFS/08.png" width="400">
+<img src="permission_NTFS/08.png" width="400">
 
-<img src="NTFS/09.png" width="400">
+<img src="permission_NTFS/09.png" width="400">
 
-<img src="NTFS/1O.png" width="400">
+<img src="permission_NTFS/1O.png" width="400">
 
-<img src="NTFS/11.png" width="400">
+<img src="permission_NTFS/11.png" width="400">
 
 </p>
 
