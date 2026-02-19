@@ -23,7 +23,7 @@
 ## III. Objectifs
 
 <p><b>1. Créer un dossier partagé sécurisé dans un domaine Active Directory</b></p>
-<p>Définir une arborescence claire et adaptée aux besoins métiers.</p>
+<p>Définir une arborescence claire et adaptée aux besoins métiers</p>
 <p>Configurer les partages réseau et les permissions NTFS.</p>
 
 <p><b>2. Mettre en place des groupes d’habilitation cohérents</b></p>
@@ -43,7 +43,7 @@
 <p>Faciliter les audits internes ou externes.</p>
 
 <p><b>5. Simplifier la gestion quotidienne des administrateurs</b></p>
-<p>Centraliser la gestion via Active Directory.</p>
+<p>Centraliser la gestion via Active Directory</p>
 <p>Automatiser les contrôles pour gagner du temps et éviter les erreurs humaines.</p>
 
 ---
@@ -394,3 +394,15 @@
 <img src="connexion/08.png" width="400">
 
 </p>
+
+---
+
+VII. Conclusion
+
+<p>La mise en place d’un dossier partagé sécurisé au sein d’un domaine Active Directory a permis de structurer et de fiabiliser la gestion des habilitations au sein de l’organisation. L’ensemble des étapes réalisées — création du domaine, organisation des unités d’organisation, définition des groupes de sécurité, configuration des permissions SMB et NTFS, puis automatisation du contrôle via un script PowerShell — constitue une solution complète, conforme aux bonnes pratiques de gestion des accès.</p>
+
+<p>Ce projet démontre l’importance d’une architecture d’habilitation claire et maîtrisée. Grâce à l’utilisation de groupes globaux et de groupes locaux de domaine, les droits d’accès sont désormais attribués de manière cohérente, évolutive et conforme au principe du moindre privilège. L’automatisation du contrôle des permissions via PowerShell renforce encore la sécurité en permettant de détecter rapidement toute dérive ou anomalie dans les droits attribués.</p>
+
+<p>Les tests réalisés avec un utilisateur RH confirment le bon fonctionnement de l’ensemble du dispositif : les accès sont correctement restreints, les permissions appliquées sont conformes aux attentes, et le dossier partagé répond aux exigences de confidentialité propres au service.</p>
+
+<p>En définitive, ce projet apporte une réponse efficace à la problématique initiale : il garantit une gestion fiable, sécurisée et automatisée des droits d’accès, tout en facilitant le travail des administrateurs et en renforçant la sécurité du système d’information. Cette démarche s’inscrit pleinement dans les standards professionnels de cybersécurité et constitue une base solide pour la gestion future des habilitations au sein de l’entreprise.</p>
