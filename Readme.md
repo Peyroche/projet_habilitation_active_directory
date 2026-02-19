@@ -74,7 +74,7 @@
 
 ## V. Contexte d'intervention
 
-<p>Dans le cadre de gestion des habilitations une procédure d'intervention a été réalisée :</p>
+<p>Dans le cadre de la gestion des habilitations dossier partage, une procédure d'intervention a été réalisée :</p>
 
 <p><b>1. Mise en place de l’environnement :</b></p>
 <p>Installation d’un contrôleur de domaine Windows Server sous VirtualBox</p>
