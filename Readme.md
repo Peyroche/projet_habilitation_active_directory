@@ -27,7 +27,7 @@ Cette problématique implique :
 
 ---
 
-## III. Objectifs du projet 
+## III. Objectifs
 
 Objectif principal :
 
@@ -49,7 +49,7 @@ Objectifs détaillés :
 
 ---
 
-## IV. Enjeux du projet
+## IV. Enjeux
 
 Sécurité :
 
@@ -73,30 +73,30 @@ Conformité :
 
 ---
 
-## V. Déroulement du projet
+## V. Contexte d'intervention
 
-Afin de répondre efficacement à la problématique de gestion des habilitations au sein d’un domaine Active Directory, il a été nécessaire de structurer une démarche méthodique et progressive. La mise en place d’un environnement de test, la création d’une organisation cohérente dans l’annuaire, puis l’application de droits d’accès adaptés constituent les fondations essentielles de ce projet.
+<p>Dans le cadre de gestion des habilitations une procédure d'intervention a été réalisée :</p>
 
-1. Mise en place de l’environnement
-- Installation d’un contrôleur de domaine Windows Server sous VirtualBox,
-- Création du domaine mdf.local,
-- Ajout d’un poste client Windows 10 au domaine.
+<p><b>1. Mise en place de l’environnement :</b></p>
+<p>Installation d’un contrôleur de domaine Windows Server sous VirtualBox</p>
+<p>Création du domaine mdf.local</p>
+<p>Ajout d’un poste client Windows 10 au domaine.</p>
 
-2. Organisation de l’Active Directory
-- Création des OU,
-- Création des groupes de sécurité,
-- Création des utilisateurs,
-- affectation des utilisateurs aux groupes globaux,
-- affectation des groupes globaux aux groupes domaines locaux.
+<p><b>2. Organisation de l’Active Directory :</b></p>
+<p>Création des OU</p>
+<p>Création des groupes de sécurité</p>
+<p>Création des utilisateurs</p>
+<p>Affectation des utilisateurs aux groupes globaux</p>
+<p>Affectation des groupes globaux aux groupes domaines locaux.</p>
 
-3. Mise en place du dossier partagé
-- Création du dossier RH,
-- Application droits de partages SMB,
-- Application des permissions NTFS.
+<p><b>3. Mise en place du dossier partagé</b></p>
+<p>Création du dossier RH</p>
+<p>Application droits de partages SMB</p>
+<p>Application des permissions NTFS.</p>
 
-4. Exécution d'un script PowerShell de vérification automatique des habilitations.
+<p><b>4. Exécution d'un script PowerShell de vérification automatique des habilitations.</b></p>
 
-5. Tester la connexion avec un utilisateur RH.
+<p><b>5. Tester la connexion avec un utilisateur RH.</b></p>
 
 ---
 
