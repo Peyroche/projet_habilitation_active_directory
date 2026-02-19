@@ -314,7 +314,7 @@
 
 <img src="dossier_RH/09.png" width="400">
 
-<img src="dossier_RH/1O.png" width="400">
+<img src="dossier_RH/10.png" width="400">
 
 <img src="dossier_RH/11.png" width="400">
 
@@ -364,7 +364,7 @@
 
 <img src="permission_NTFS/09.png" width="400">
 
-<img src="permission_NTFS/1O.png" width="400">
+<img src="permission_NTFS/10.png" width="400">
 
 <img src="permission_NTFS/11.png" width="400">
 
