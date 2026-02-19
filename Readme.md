@@ -13,17 +13,10 @@
 
 ## II. Problématique  
 
-Comment garantir que les utilisateurs d’un domaine Active Directory disposent uniquement des droits nécessaires à leur activité, tout en assurant une gestion centralisée, cohérente et vérifiable des habilitations sur un dossier partagé ?
+<p>Dans un environnement professionnel, la gestion des droits d’accès constitue un enjeu majeur de sécurité. Une mauvaise configuration des habilitations peut entraîner des risques importants : accès non autorisé à des données sensibles, fuites d’informations, non‑conformité réglementaire ou encore perturbation du fonctionnement des services.</p>
+<p>Or, dans de nombreuses organisations, les droits sur les dossiers partagés évoluent régulièrement (arrivées, départs, changements de poste), ce qui rend difficile leur contrôle manuel.</p>
 
-Cette problématique implique :
-
-- la création d’une structure AD propre et hiérarchisée,
-
-- la mise en place de groupes de sécurité adaptés,
-
-- l’application de droits NTFS cohérents,
-
-- la vérification régulière de la conformité des habilitations.
+<p>La problématique est donc la suivante : Comment mettre en place une gestion fiable, sécurisée et automatisée des droits d’accès à un dossier partagé dans un domaine Active Directory, tout en garantissant la conformité des habilitations grâce à un contrôle automatisé ?</p>
 
 ---
 
