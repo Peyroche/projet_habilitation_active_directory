@@ -287,6 +287,11 @@
 
 ### 3. Mise en place du dossier partagé
 
+| Dossier              | Secteur              | OU_DLG           |                          
+|----------------------|----------------------|------------------|
+| Dossier_RH           | RH                   | DLG_RH           | 
+
+
 ### Création du dossier RH
 
 <p align="center">
