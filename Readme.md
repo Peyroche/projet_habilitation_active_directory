@@ -175,7 +175,7 @@
 
 </p>
 
-### Ajout d’un poste client Windows 10 au domaine
+### Ajout d’un poste client Windows 10 Entreprise au domaine
 
 <p align="center">
 
