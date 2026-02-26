@@ -310,6 +310,11 @@
 
 ### Droits de partages SMB
 
+| Groupes                | Rôles                 | Droits               |                      
+|------------------------|-----------------------|----------------------|
+| domaine computers      | PC du domaine         | lecture              |
+| DLG_RH                 | Groupe du domaine     | lecture              |
+
 <p align="center">
 
 <img src="SMB/01.png" width="400">
@@ -332,6 +337,32 @@
 
 ### Permissions NTFS
 
+| Groupes                | Rôles                 | Droit                |                      
+|------------------------|-----------------------|----------------------|
+| Administrateurs        | Admis du serveur      | Contrôle total       | 
+| SYSTEM                 | Windows/GPO/Services  | Contrôle total       | 
+| CREATEUR PROPRIETE     | Gestion automatique   | par défaut           | 
+| Utilisateurs           | Compte locaux/domaine | lecture et exécution |                     
+| domaine computers      | PC du domaine         | lecture et exécution |
+| DLG_RH                 | Groupe du domaine     | lecture              |
+
+Activation de l'héritage :
+
+<p align="center">
+
+<img src="heritage/01.png" width="400">
+
+<img src="heritage/02.png" width="400">
+
+<img src="heritage/03.png" width="400">
+
+<img src="heritage/04.png" width="400">
+
+</p>
+
+
+Permission :
+
 <p align="center">
 
 <img src="permission_NTFS/01.png" width="400">
@@ -346,25 +377,35 @@
 
 <img src="permission_NTFS/06.png" width="400">
 
-<img src="permission_NTFS/07.png" width="400">
-
-<img src="permission_NTFS/08.png" width="400">
-
-<img src="permission_NTFS/09.png" width="400">
-
-<img src="permission_NTFS/10.png" width="400">
-
-<img src="permission_NTFS/11.png" width="400">
-
 </p>
 
-### 4. Exécution d'un script PowerShell de vérification automatique des habilitations
+
+### 4. Vérification automatique des habilitations à partir de PowerShell
+
+Vérification des droits de partages :
 
 <p align="center">
 
-<img src="script/01.png" width="400">
+<img src="powershell/01.png" width="400">
 
 </p>
+
+Vérification des permissions NTFS :
+
+<p align="center">
+
+<img src="powershell/02.png" width="400">
+
+</p>
+
+Vérification de l'héritage :
+
+<p align="center">
+
+<img src="powershell/03.png" width="400">
+
+</p>
+
 
 ### 5. Tester la connexion avec un utilisateur RH
 
