@@ -314,6 +314,8 @@
 
 ### Droits de partages SMB
 
+Les droits de partages sont présentés sur ce tableau :
+
 <div align="center">
 
 | Groupes                | Rôles                 | Droits               |                      
@@ -344,6 +346,8 @@
 </p>
 
 ### Permissions NTFS
+
+Les permissions sont présentées sur ce tableau :
 
 <div align="center">
 
@@ -438,8 +442,6 @@ Ce teste consiste à se connecter avec un utilisateur du domaine et essayer d’
 <img src="connexion/06.png" width="400">
 
 <img src="connexion/07.png" width="400">
-
-<img src="connexion/08.png" width="400">
 
 </p>
 
