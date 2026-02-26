@@ -5,7 +5,7 @@
 ## I. Présentation du projet 
 
 <p>Dans un environnement professionnel, la gestion des droits d’accès aux ressources est un élément essentiel de la sécurité informatique. Les entreprises doivent garantir que chaque collaborateur accède uniquement aux informations nécessaires à l’exercice de ses fonctions.</p>
-<p>Ce projet consiste à mettre en place un dossier partagé au sein d’un domaine Active Directory, à définir des niveaux d’habilitation adaptés aux différents services, puis à vérifier automatiquement la conformité de ces droits grâce à un script PowerShell.</p>
+<p>Ce projet consiste à mettre en place un dossier partagé au sein d’un domaine Active Directory, à définir des niveaux d’habilitation adaptés aux différents services, puis à vérifier automatiquement la conformité de ces droits grâce à PowerShell.</p>
 
 <p>Ce travail s’inscrit dans une démarche de sécurisation du système d’information et répond aux bonnes pratiques de gestion des accès en entreprise.</p>
 
@@ -80,9 +80,13 @@
 <p>- Application droits de partages SMB</p>
 <p>- Application des permissions NTFS.</p>
 
-<p><b>4. Exécution d'un script PowerShell de vérification automatique des habilitations.</b></p>
+<p><b>4. Vérification automatique des habilitations avec PowerShell.</b></p>
+<p>- Vérifications des droits de partages</p>
+<p>- Vérifications des permissions NTFS</p>
+<p>- Vérification de l'héritage.</p>
 
-<p><b>5. Tester la connexion avec un utilisateur RH.</b></p>
+<p><b>5. Tester l'accès réellement</b></p>
+<p>- Se connecter avec un utilisateur du domaine</p> 
 
 ---
 
