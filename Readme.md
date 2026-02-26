@@ -1,8 +1,8 @@
-## PROJET 2 : HABILITATION SUR UN DOSSIER PARTAGE
+## Projet 2 : Habilitation sur un dossier partage
 
 ---
 
-## I. Introduction 
+## I. Présentation du projet 
 
 <p>Dans un environnement professionnel, la gestion des droits d’accès aux ressources est un élément essentiel de la sécurité informatique. Les entreprises doivent garantir que chaque collaborateur accède uniquement aux informations nécessaires à l’exercice de ses fonctions.</p>
 <p>Ce projet consiste à mettre en place un dossier partagé au sein d’un domaine Active Directory, à définir des niveaux d’habilitation adaptés aux différents services, puis à vérifier automatiquement la conformité de ces droits grâce à un script PowerShell.</p>
@@ -48,50 +48,36 @@
 
 ---
 
-## IV. Enjeux
+## IV. Architecture
 
-<p><b>1. Sécurité :</b></p>
-<p>Assurer que chaque collaborateur accède uniquement aux ressources nécessaires à ses missions.</p>
-<p>Limiter les risques de fuite de données ou de compromission.</p>
-
-<p><b>2. Organisation :</b></p>
-<p>Structurer les habilitations selon les services, les rôles et les responsabilités</p>
-<p>Faciliter les mouvements internes (mobilité, arrivée, départ).</p>
-
-<p><b>3. Opérationnel :</b></p>
-<p>Automatiser les contrôles pour réduire les erreurs humaines</p>
-<p>Optimiser le travail des administrateurs système.</p>
-
-<p><b>4. Traçabilité :</b></p>
-<p>Conserver une vision claire, documentée et vérifiable des droits d’accès</p>
-<p>Détecter rapidement les anomalies ou dérives d’habilitation.</p>
-
-<p><b>5. Conformité :</b></p>
-<p>Répondre aux bonnes pratiques de cybersécurité (ANSSI, RGPD, ISO 27001)</p>
-<p>Pouvoir justifier des droits attribués lors d’un audit.</p>
+| Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           | Dossier partagé |                        
+|----------------------|----------------------|---------------------|------------------|-----------------|
+| RH                   | Placide              | GG_RH               | DLG_RH           | Dossier_RH      |
+| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       |     /           |
+| Informatique         | Mercier              | GG_IT               | DLG_IT           |     /           |
 
 ---
 
-## V. Contexte d'intervention
+## V. Procédure
 
 <p>Dans le cadre de la gestion des habilitations dossier partage, une procédure d'intervention a été réalisée :</p>
 
-<p><b>1. Mise en place de l’environnement :</b></p>
-<p>Installation d’un contrôleur de domaine Windows Server sous VirtualBox</p>
-<p>Création du domaine mdf.local</p>
-<p>Ajout d’un poste client Windows 10 au domaine.</p>
+<p><b>1. Mise en place de l’environnement</b></p>
+<p>- Installation d’un contrôleur de domaine Windows</p>
+<p>- Création du domaine mdf.local</p>
+<p>- Ajout d’un poste client windows 10 au domaine.</p>
 
-<p><b>2. Organisation de l’Active Directory :</b></p>
-<p>Création des OU</p>
-<p>Création des groupes de sécurité</p>
-<p>Création des utilisateurs</p>
-<p>Affectation des utilisateurs aux groupes globaux</p>
-<p>Affectation des groupes globaux aux groupes domaines locaux.</p>
+<p><b>2. Organisation de l’Active Directory</b></p>
+<p>- Création des OU</p>
+<p>- Création des groupes de sécurité</p>
+<p>- Création des utilisateurs</p>
+<p>- Affectation des utilisateurs aux groupes globaux</p>
+<p>- Affectation des groupes globaux aux groupes domaines locaux.</p>
 
 <p><b>3. Mise en place du dossier partagé</b></p>
-<p>Création du dossier RH</p>
-<p>Application droits de partages SMB</p>
-<p>Application des permissions NTFS.</p>
+<p>- Création du dossier RH</p>
+<p>- Application droits de partages SMB</p>
+<p>- Application des permissions NTFS.</p>
 
 <p><b>4. Exécution d'un script PowerShell de vérification automatique des habilitations.</b></p>
 
@@ -103,7 +89,7 @@
 
 ### 1. Mise en place de l'environnement
 
-### Installation d’un contrôleur de domaine Windows Server sous VirtualBox
+### Installation Windows Server
 
 <p align="center">
 
@@ -175,7 +161,7 @@
 
 </p>
 
-### Ajout d’un poste client Windows 10 Entreprise au domaine
+### Ajout d’un poste client windows 10 Entreprise au domaine
 
 <p align="center">
 
@@ -207,12 +193,6 @@
 
 ### 2. Organisation de l’Active Directory
   
-| Secteur              | OU_Utilisateurs      | OU_GG               | OU_DLG           |                          
-|----------------------|----------------------|---------------------|------------------|
-| RH                   | Placide              | GG_RH               | DLG_RH           | 
-| Comptabilité         | Virginie             | GG_Compta           | DLG_Compta       | 
-| Informatique         | Mercier              | GG_IT               | DLG_IT           | 
-
 ### Création des unités d'organisation (OU)
 
 <p align="center">
@@ -286,11 +266,6 @@
 </p>
 
 ### 3. Mise en place du dossier partagé
-
-| Dossier              | Secteur              | OU_DLG           |                          
-|----------------------|----------------------|------------------|
-| Dossier_RH           | RH                   | DLG_RH           | 
-
 
 ### Création du dossier RH
 
